@@ -1,0 +1,76 @@
+.dropDownModTitle {
+  min-width: 18vw;
+  min-height: 3vh;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #0162c8;
+  font-family: system-ui;
+  font-size: 0.91rem;
+}
+.dropDownMod {
+  min-width: 18vw;
+  min-height: 17vh;
+  position: absolute;
+  margin-top: 2px;
+  z-index: 5;
+  box-shadow: rgb(0 0 0 / 47%) 0px 4px 6px -2px;
+  background-color: #edf1f3;
+  color: #0162c8;
+  display: none;
+  border-radius: 6px;
+}
+.dropDownMod ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 17vh;
+  padding: 1px 4px;
+  justify-content: space-evenly;
+  border-radius: 6px;
+}
+.activeDropDownMod {
+  display: block;
+}
+.dropDownModLi {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vh;
+  /* background-color: aqua; */
+  border-radius: 6px;
+}
+.dropDownModLi:hover {
+  background-color: #cbd0d375;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .dropDownModTitle {
+    min-width: 18vw;
+    min-height: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #0162c8;
+    font-family: system-ui;
+    font-size: 1.5rem;
+  }
+  .dropDownModLi {
+    font-size: 1.13em;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .dropDownModTitle {
+    font-size: 0.9rem;
+  }
+}

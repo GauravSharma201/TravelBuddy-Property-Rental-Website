@@ -1,0 +1,72 @@
+.customSelectorCont {
+  width: 22vw;
+  /* color: white; */
+  font-family: system-ui;
+  height: 4vh;
+  display: block;
+  /* background-color: rgb(221 22 228);*/
+}
+.cutomSelectorCntrl {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(43 174 226);
+  border-radius: 7px;
+  box-shadow: 2px 2px 6px 0px #00000052;
+  padding: 1em;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.customSelectorOptWin {
+  width: 22vw;
+  overflow-y: scroll;
+  max-height: 0vh;
+  position: relative;
+  font-size: 0.91em;
+  transition: max-height 400ms linear;
+  border-radius: 0;
+  background-color: white;
+}
+.customSelectorOptWin::-webkit-scrollbar {
+  display: none;
+}
+.actvCustomSelWin {
+  max-height: 24vh;
+  transition: max-height 400ms linear;
+  box-shadow: 2px 2px 6px 1px #00000052;
+}
+
+.customSelectorOptCont {
+  width: 100%;
+  min-height: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #849095;
+}
+.customSelectorOptCont span {
+  cursor: pointer;
+}
+.customSelectorOpt {
+  width: 100%;
+  height: 4vh;
+  margin: 1px 0px;
+  color: #464646;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.customSelectorInpOpt {
+  position: sticky;
+  font-family: system-ui;
+  top: 0;
+  color: #525151;
+  padding: 1em;
+  border: none;
+  border-radius: 7px 7px 0px 0px;
+  background: white;
+}

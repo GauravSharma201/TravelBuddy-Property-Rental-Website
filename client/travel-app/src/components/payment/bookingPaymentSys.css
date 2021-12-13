@@ -1,0 +1,180 @@
+.bookingPaymentSec {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.bookingPaymentSubCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.confirmPayCont {
+  width: 31vw;
+  height: 47vh;
+  background-color: #edf1f3;
+  display: flex;
+  color: #282727;
+  flex-direction: column;
+  border: 7px solid #55e7fc;
+  box-shadow: 0.1em 0.1em 0.3em 0.1em #00000061;
+  border-radius: 9px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.confirmPayCont input {
+  border-radius: 9px;
+  height: 4vh;
+  border: 1px solid #bbbbc2;
+  padding: 0.9em;
+  color: #464646;
+}
+.propDetPricingCont {
+  width: 39vw;
+  height: 66vh;
+  background-color: white;
+  box-shadow: 0px 2px 6px 3px #00000036;
+  border-radius: 9px;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.propDetForBooking {
+  width: 100%;
+  height: 30vh;
+  /* background-color: lawngreen; */
+  padding-bottom: 1em;
+  color: #282727;
+  font-family: system-ui;
+  border-bottom: 1px solid #bbbbc2;
+  padding-left: 0.3em;
+  display: flex;
+}
+.propDetBookImgCont {
+  width: 16vw;
+  height: 100%;
+  /* background-color: yellow; */
+}
+.propDetBookDetCont {
+  width: 23vw;
+  height: 100%;
+  /* background-color: red; */
+  padding: 1em;
+}
+.propDetBookDetTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+}
+.propDetBookDetMidlle {
+  margin: 2% 0%;
+  width: 100%;
+  height: 42%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.propDetBookDetBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.propDetBookItemImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+}
+.bookingDetLink {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+.pricingDet {
+  width: 100%;
+  height: 29vh;
+  color: #464646;
+  font-family: system-ui;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 12px;
+}
+.pricingDetSub {
+  width: 100%;
+  height: 9vh;
+  /* background-color: rgb(238, 160, 15); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.middlePricingDetSub {
+  border-top: 1px solid #bbbbc2;
+  border-bottom: 1px solid #bbbbc2;
+}
+.rigthSpan {
+  float: right;
+}
+.paymentCardInput {
+  width: 18vw;
+  height: 4vh;
+  background-color: white;
+  border-radius: 9px;
+  border: 1px solid #cbd0d3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.paymentInput {
+  width: 14vw;
+  height: 3vh;
+  background-color: white;
+}
+.spanBoxBookPay {
+  width: 6vw;
+  height: 3.5vh;
+  display: none;
+  /* background-color: blueviolet; */
+  font-size: 0.85em;
+  border: 1px solid #282727;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+}
+.darkSpanBoxBookPay {
+  display: flex;
+}
+.payNowBtn {
+  cursor: pointer;
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+  color: rgb(237 241 243);
+  border-radius: 18px;
+  box-shadow: 2px 2px 6px 3px #00000021;
+  border: 2px solid rgb(255 193 7);
+  padding: 1em;
+  font-weight: bolder;
+  font-size: 0.8em;
+}
+.propDetBookDetTopSub h1 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 20vw;
+}
+.propDetBookDetTopSub h4 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 20vw;
+}
+.confirmPayCont label {
+  font-size: 1.2em;
+}

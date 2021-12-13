@@ -1,0 +1,471 @@
+#header {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 6.5em;
+  display: flex;
+  flex-direction: row;
+  /* copied */
+  background-color: rgb(237, 241, 243);
+  /* display: flex;
+    flex-direction: row;
+    height: 12.6vh; */
+  /* justify-content: center; */
+  box-shadow: 0px 1px 3px 0px #00000073;
+  /* position: relative; */
+}
+#left {
+  /* background-color: red; */
+  width: 12em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 39px;
+}
+#left div {
+  /* background-color: slateblue; */
+  width: 3em;
+  height: 3em;
+}
+#logo {
+  width: 100%;
+  height: 100%;
+}
+#logo:hover {
+  cursor: pointer;
+}
+#center {
+  /* background-color: green; */
+  width: 59em;
+  height: 100%;
+}
+#right {
+  /* background-color: yellow; */
+  width: 15em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  margin: 0px 15px;
+  color: #0162c8;
+  cursor: pointer;
+}
+.icon:hover {
+  color: #317bca;
+  transform: scale(1.1);
+}
+#top {
+  /* background-color: white; */
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#top input {
+  width: 26em;
+  height: 2.5em;
+  padding: 16px;
+  border-radius: 13px;
+  outline: none;
+  background-color: white;
+  border: 0;
+  font-family: system-ui;
+  /* copied */
+  /* margin-top: 0.6em; */
+  /* padding: 0.5em; */
+  /* width: 46vw; */
+  /* height: 5vh; */
+  /* border-radius: 9px; */
+}
+.btn {
+  width: 4.5em;
+  height: 2.7em;
+  border-radius: 12px;
+  padding: 6px;
+  color: white;
+  background-color: rgb(3 118 171 / 49%);
+  border: none;
+}
+#bottom {
+  /* background-color: blue; */
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#options {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.optionLi {
+  margin: 0px 30px;
+  color: #1455a0;
+}
+.dropDown {
+  background-color: rgb(237, 241, 243);
+  margin: 3px 0px;
+  width: 11em;
+  min-height: 11em;
+  padding: 6px 12px;
+  display: none;
+  position: absolute;
+  z-index: 5;
+}
+.dropDown ul {
+  list-style: none;
+}
+.dropDown li {
+  margin-top: 10px;
+}
+/* .arrowForward {
+  float: right;
+} */
+.activeDropDown {
+  display: block;
+}
+
+#holiday:hover {
+  cursor: pointer;
+}
+#flights:hover {
+  cursor: pointer;
+}
+#hotels:hover {
+  cursor: pointer;
+}
+#forex:hover {
+  cursor: pointer;
+}
+.btn:hover {
+  cursor: pointer;
+}
+#modal {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000a3;
+  z-index: 2;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#loginForm {
+  width: 27vw;
+  color: #282727;
+  height: 47vh;
+  font-family: system-ui;
+  font-size: 0.95em;
+  background-color: white;
+  border-radius: 13px;
+}
+.closeBtn {
+  color: #464646;
+  cursor: pointer;
+  float: right;
+}
+.userOptions {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 26%;
+  width: 100%;
+}
+.userOptions span {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+  height: 4vh;
+  align-items: center;
+}
+.userOptions span:hover {
+  background-color: #e5e5e5;
+  border-radius: 9px;
+}
+.forgotPasswordForm {
+  background-color: white;
+  width: 23vw;
+  height: 40vh;
+  display: none;
+  color: #282727;
+  font-family: system-ui;
+  font-size: 1em;
+  border-radius: 13px;
+}
+.userOptionsReg {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 12%;
+  width: 100%;
+}
+.userOptionsReg span {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+  height: 4vh;
+  align-items: center;
+}
+.userOptionsReg span:hover {
+  background-color: #e5e5e5;
+  border-radius: 9px;
+}
+.registerForm {
+  background-color: white;
+  width: 34vw;
+  height: 79vh;
+  display: none;
+  color: #282727;
+  font-family: system-ui;
+  font-size: 1em;
+  border-radius: 13px;
+}
+.linkCss {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* responsive media query */
+@media only screen and (max-width: 1920px) {
+  #left {
+    width: 37em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 39px;
+  }
+  #center {
+    width: 99em;
+    height: 100%;
+  }
+  #right {
+    width: 44em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #header {
+    width: 100%;
+    height: 7.5em;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(237, 241, 243);
+    box-shadow: 0px 1px 3px 0px #00000073;
+  }
+  #top input {
+    font-size: 1em;
+  }
+  .btn {
+    width: 4.5vw;
+    height: 5vh;
+    font-size: 1em;
+  }
+  .userOptionsReg span {
+    width: 10vw;
+    height: 4vh;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  #left {
+    width: 37em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 39px;
+  }
+  #center {
+    width: 99em;
+    height: 100%;
+  }
+  #right {
+    width: 44em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #header {
+    width: 100%;
+    height: 7.5em;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(237, 241, 243);
+    box-shadow: 0px 1px 3px 0px #00000073;
+  }
+  #loginForm {
+    width: 33vw;
+    height: 64vh;
+    font-size: 0.95em;
+  }
+  .userOptions {
+    top: 26%;
+  }
+  .forgotPasswordForm {
+    width: 34vw;
+    height: 39vh;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  #header {
+    width: 100%;
+    height: 6.5em;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #header {
+    width: 98.5vh;
+    height: 20vh;
+    font-size: 1em;
+  }
+  #top {
+    position: relative;
+    top: 2em;
+  }
+  #top input {
+    width: 80vw;
+    font-size: 2em;
+  }
+  #bottom {
+    display: none;
+  }
+  #left {
+    padding-left: 15px;
+    width: 16em;
+  }
+  #left div {
+    width: 6em;
+    height: 6em;
+  }
+  .btn {
+    font-size: 1.8em;
+    width: 26.5vw;
+    height: 8.5vh;
+  }
+  #modal {
+    width: 213vw;
+    height: 213vh;
+  }
+  #loginForm {
+    width: 184vw;
+    height: 117vh;
+    font-size: 2em;
+  }
+  .registerForm {
+    width: 180vw;
+    height: 173vh;
+    font-size: 2em;
+  }
+  .forgotPasswordForm {
+    width: 184vw;
+    height: 78vh;
+    font-size: 2em;
+  }
+  .forgotPassForm button {
+    width: 25vw;
+    font-size: 1rem;
+    height: 7vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #header {
+    width: 229vw;
+  }
+  #left div {
+    width: 4em;
+    height: 4em;
+  }
+  #left {
+    padding-left: 19px;
+  }
+  #top input {
+    width: 80vw;
+    height: 9vh;
+    font-size: 1.1em;
+  }
+  .btn {
+    font-size: 1.1em;
+    width: 24vw;
+    height: 8vh;
+  }
+  #modal {
+    width: 228vw;
+    height: 228vh;
+  }
+  #loginForm {
+    width: 184vw;
+    height: 117vh;
+    font-size: 1.5em;
+  }
+  .forgotPasswordForm {
+    font-size: 1.6em;
+  }
+  .userOptions span {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #header {
+    width: 125vh;
+    height: 20vh;
+    font-size: 1em;
+  }
+  #top {
+    position: relative;
+    top: 2em;
+  }
+  #top input {
+    width: 13em;
+    font-size: 1.8em;
+  }
+  #bottom {
+    display: none;
+  }
+  #left {
+    padding-left: 15px;
+  }
+  #modal {
+    width: 225vw;
+    height: 225vh;
+  }
+  .btn {
+    font-size: 1.8em;
+    width: 27vw;
+    height: 8vh;
+  }
+  #loginForm {
+    width: 181vw;
+    height: 114vh;
+    font-size: 1.1em;
+  }
+  .registerForm {
+    width: 186vw;
+    height: 179vh;
+    font-size: 1.5em;
+  }
+  .forgotPasswordForm {
+    width: 180vw;
+    height: 98vh;
+    font-size: 1.3em;
+  }
+  .forgotPassForm button {
+    width: 25vw;
+    font-size: 1rem;
+    height: 7vh;
+  }
+}

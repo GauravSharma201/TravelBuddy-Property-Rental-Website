@@ -1,0 +1,164 @@
+.rentalRoomSelCont {
+  width: 25vw;
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(8 163 104); */
+}
+.rentalRoomSel {
+  width: 6vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 9px;
+  color: white;
+  font-family: system-ui;
+  align-items: center;
+  box-shadow: 2px 2px 6px 0px #00000052;
+  background-color: #3f88d5;
+}
+.rentalRoomOpt {
+  width: 16vw;
+  height: 6vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 9px;
+  box-shadow: 2px 2px 6px 0px #00000052;
+  background-color: #b4d0d540;
+}
+.rentalRoombtn {
+  width: 3vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  align-items: center;
+  font-family: system-ui;
+  color: white;
+  background-color: #3f88d5;
+}
+.shortDescpPropDet {
+  width: 28vw;
+  height: 6vh;
+  border-radius: 8px;
+  border: 1px solid #bbbbc2;
+  font-family: system-ui;
+  box-shadow: 2px 2px 6px 1px rgb(226 229 231 / 70%);
+  color: #5c5c5c;
+  padding: 0.7em;
+}
+.descpPropDet {
+  width: 28vw;
+  height: 14vh;
+  border-radius: 8px;
+  border: 1px solid #bbbbc2;
+  font-family: system-ui;
+  box-shadow: 2px 2px 6px 1px rgb(226 229 231 / 70%);
+  color: #5c5c5c;
+  padding: 0.7em;
+}
+.rentalRoombtnVal {
+  width: 3vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  color: white;
+  font-family: system-ui;
+  align-items: center;
+  background-color: #3f88d5;
+}
+
+@media only screen and (max-width: 1920px) {
+  .shortDescpPropDet {
+    font-family: system-ui;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.2em;
+  }
+  .descpPropDet {
+    font-family: system-ui;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .shortDescpPropDet {
+    width: 28vw;
+    height: 6vh;
+    font-size: 1.01em;
+  }
+  .descpPropDet {
+    font-size: 1.01em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .shortDescpPropDet {
+    width: 115vw;
+    height: 9vh;
+    font-size: 2em;
+  }
+  .descpPropDet {
+    width: 115vw;
+    height: 16vh;
+    font-size: 2em;
+  }
+  .rentalRoomSelCont {
+    width: 201vw;
+    height: 12vh;
+  }
+  .rentalRoomSel {
+    width: 25vw;
+    height: 7vh;
+    font-size: 2em;
+  }
+  .rentalRoomOpt {
+    width: 105vw;
+    height: 13vh;
+  }
+  .rentalRoombtn {
+    width: 25vw;
+    height: 9vh;
+  }
+  .rentalRoombtnVal {
+    width: 27vw;
+    height: 10vh;
+  }
+  .rentalRoombtnVal {
+    width: 27vw;
+    height: 10vh;
+    font-size: 1.9em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .shortDescpPropDet {
+    width: 115vw;
+    height: 9vh;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.8em;
+  }
+  .descpPropDet {
+    width: 115vw;
+    height: 16vh;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.8em;
+  }
+  .rentalRoomOpt {
+    width: 105vw;
+    height: 12vh;
+  }
+  .rentalRoombtnVal {
+    width: 27vw;
+    height: 9vh;
+    font-size: 1.9em;
+  }
+}

@@ -1,0 +1,646 @@
+#section {
+  background: linear-gradient(132deg, #c3dde1, #ffff, #c3dde1, transparent);
+}
+.subSection {
+  width: 100%;
+  height: 72vh;
+  display: flex;
+  flex-direction: row;
+}
+/* #phuketSec {
+  background-color: white;
+} */
+.phuketDiv {
+  width: 50%;
+  height: 100%;
+  color: white;
+}
+.phukLeft {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#toDoSec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 99vh;
+}
+.toDoSecSub {
+  height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.toDo {
+  width: 25vw;
+  height: 36vh;
+  position: relative;
+  /* width: 30vw; */
+  margin: 0.5em;
+  border: 7px solid #55e7fc;
+  border-radius: 9px;
+  /* background-color: rgb(165, 121, 121); */
+  box-shadow: 0.1em 0.1em 0.3em 0.1em #00000061;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.8em;
+  font-family: "Festive", cursive;
+  font-weight: bold;
+  color: rgb(255 193 7);
+}
+.toDo:hover {
+  transform: scale(1.1);
+}
+.mauritiusBckImg {
+  background-image: url("https://images.unsplash.com/photo-1589906129028-891be54ad4db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dubaiBckImg {
+  background-image: url("https://images.unsplash.com/photo-1577544728904-c1ae02851346?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  background-size: 100%;
+}
+.baliBckImg {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1553902000-e036b7d05af5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+.singaporeBckImg {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1516422641841-cd9803ab02c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+.greeceBckImg {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1609879520099-e5f8df521385?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80");
+}
+.phuketBckImg {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1586739807089-5f978d168cfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+}
+
+#firstBar {
+  top: 77.4%;
+}
+#secondBar {
+  top: 149%;
+}
+.testBar {
+  /* background-color: green; */
+  width: 77vw;
+  height: 22vh;
+  position: absolute;
+  left: 10.5%;
+  /* copied */
+  position: absolute;
+  /* width: 86vw; */
+  /* height: 27vh; */
+  background-color: #eee;
+  top: 74%;
+  /* left: 6.2%; */
+  border-radius: 13px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+}
+.testBarUp {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 50%;
+  /* copied */
+  /* font-size: 1.5em; */
+  font-family: system-ui;
+  font-weight: bold;
+  padding: 1em;
+  /* margin-left: 0.5em; */
+  color: rgb(255 193 7);
+}
+.testBarUp button {
+  float: right;
+  position: relative;
+  top: -66%;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+  color: rgb(237 241 243);
+  box-shadow: 2px 2px 6px 3px #00000021;
+  border: 2px solid rgb(255 193 7);
+  padding: 0.5em;
+  font-size: 0.8em;
+}
+.testBarDown {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.testBarDown input {
+  border: none;
+  border-radius: 5px;
+  color: #646464;
+}
+.testBarDown label {
+  font-family: system-ui;
+  color: #5c5c5c;
+}
+.testBarDown div {
+  display: flex;
+  justify-content: space-between;
+  width: 16vw;
+}
+.testBarDown button {
+  float: right;
+  position: relative;
+  top: -66%;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+  color: rgb(237 241 243);
+  box-shadow: 2px 2px 6px 3px #00000021;
+  border: 2px solid rgb(255 193 7);
+  padding: 0.5em;
+  font-size: 0.8em;
+}
+.sepBar {
+  height: 22vh;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+}
+.sepBar div {
+  width: 66%;
+  height: 71%;
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.8em;
+  font-family: system-ui;
+  font-weight: bold;
+  color: rgb(255 193 7);
+  align-items: center;
+}
+
+.holidayExpOptMod {
+  width: 95vw;
+  height: 7vh;
+  display: flex;
+  border-radius: 9px;
+  justify-content: space-around;
+  align-items: center;
+  color: #646464;
+  font-family: system-ui;
+  font-size: 1.5em;
+  background-color: white;
+}
+.holidayExpOptModWin {
+  display: none;
+  flex-direction: column;
+  width: 95vw;
+  height: 42vh;
+  border-radius: 9px;
+  position: absolute;
+  top: 95%;
+  left: 4%;
+  z-index: 3;
+  padding: 0px 15px;
+  justify-content: space-evenly;
+  font-family: system-ui;
+  font-size: 1.5em;
+  background-color: white;
+  color: #646464;
+  border: 1px solid #464646;
+  box-shadow: 2px 2px 6px 3px #00000021;
+}
+.expHolInputDate {
+  font-size: 1.7em;
+  width: 65vw;
+  color: #646464;
+  border: 1px solid #bbbbc2;
+}
+.expHolInput {
+  font-size: 1em;
+  width: 100%;
+  border: 1px solid #bbbbc2;
+}
+.actvHolExpMod {
+  display: flex;
+}
+
+@media only screen and (max-width: 1920px) {
+  #firstBar {
+    top: 76.4%;
+  }
+  #secondBar {
+    top: 148%;
+  }
+  .testBar {
+    width: 77vw;
+    height: 22vh;
+    font-size: 1.1em;
+    position: absolute;
+    left: 10.5%;
+    position: absolute;
+    background-color: #eee;
+    top: 74%;
+    border-radius: 13px;
+  }
+  .testBarUp h1 {
+    font-size: 1.8em;
+  }
+  .testBarUp button {
+    top: -37%;
+    font-size: 1.3em;
+    width: 5vw;
+    height: 5vh;
+  }
+  .testBarDown button {
+    font-size: 1.3em;
+    width: 5vw;
+    height: 5vh;
+  }
+  .testBarDown div {
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+  }
+  .testBarDown label {
+    font-size: 1.3em;
+  }
+  .testBarDown input {
+    font-size: 1.3em;
+    height: 3vh;
+    width: 11vw;
+    padding-left: 15px;
+    color: #646464;
+  }
+  .sepBar div {
+    font-size: 2.2em;
+  }
+  .toDo {
+    width: 25vw;
+    height: 36vh;
+    position: relative;
+    margin: 0.5em;
+    border: 7px solid #55e7fc;
+    border-radius: 9px;
+    box-shadow: 0.1em 0.1em 0.3em 0.1em #00000061;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2.6em;
+    font-family: "Festive", cursive;
+    font-weight: bold;
+    color: rgb(255 193 7);
+  }
+  .phukLeft {
+    display: flex;
+    font-size: 1.2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  #firstBar {
+    top: 79.4%;
+  }
+  #secondBar {
+    top: 151%;
+  }
+  .testBar {
+    width: 77vw;
+    height: 22vh;
+    font-size: 1.1em;
+    left: 10.5%;
+    position: absolute;
+    top: 74%;
+  }
+  .testBarUp h1 {
+    font-size: 1.65em;
+  }
+  .testBarUp button {
+    top: -62%;
+    padding: 0.5em;
+    font-size: 1.1em;
+  }
+  .testBarDown {
+    padding-left: 15px;
+  }
+  .testBarDown div {
+    width: 18vw;
+  }
+  .testBarDown input {
+    font-size: 1.2em;
+    height: 3vh;
+    width: 13vw;
+  }
+  .testBarDown button {
+    font-size: 1.3em;
+    width: 6vw;
+    height: 6vh;
+  }
+
+  .sepBar div {
+    width: 66%;
+    height: 71%;
+    font-size: 2em;
+    font-family: system-ui;
+    font-weight: bold;
+  }
+  .toDo {
+    width: 25vw;
+    height: 36vh;
+    font-size: 2.6em;
+    font-weight: bold;
+  }
+  .phukLeft {
+    display: flex;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  #firstBar {
+    top: 75.4%;
+  }
+  .phukLeft {
+    font-size: 0.9em;
+  }
+  .testBar {
+    width: 77vw;
+    height: 22vh;
+    font-size: 0.9em;
+    left: 10.5%;
+    top: 74%;
+  }
+  .testBarUp h1 {
+    font-size: 1.5em;
+  }
+  .testBarUp button {
+    top: -62%;
+    padding: 0.5em;
+    font-size: 1.1em;
+    width: 4vw;
+    height: 5vh;
+  }
+  .testBarDown {
+    width: 100%;
+    height: 50%;
+    padding-left: 0.9em;
+  }
+  .testBarDown label {
+    font-size: 1.1em;
+  }
+  .testBarDown div {
+    display: flex;
+    justify-content: space-between;
+    width: 17vw;
+  }
+  .testBarDown input {
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding: 0.3em;
+    color: #646464;
+  }
+  #secondBar {
+    top: 147%;
+  }
+  .testBarDown button {
+    font-size: 1.2em;
+    width: 5vw;
+    padding: 0;
+    height: 5vh;
+  }
+  .sepBar div {
+    font-size: 1.8em;
+  }
+  .toDo {
+    width: 25vw;
+    height: 36vh;
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #section {
+    width: 213vw;
+  }
+  .phuketDiv {
+    width: 44%;
+    font-size: 1.5em;
+  }
+  .testBar {
+    width: 194vw;
+    font-size: 1.5em;
+  }
+  .testBarUp button {
+    top: -96%;
+    padding: 0;
+    font-size: 1.1em;
+    width: 23vw;
+    height: 5vh;
+  }
+  .testBarDownMob {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .testBarDown div {
+    width: 59vw;
+    display: flex;
+    justify-content: center;
+  }
+  .testBarUp button {
+    top: -96%;
+  }
+  .testBarDown input {
+    font-size: 1.4em;
+    width: 47vw;
+  }
+  .testBarDown button {
+    font-size: 1.2em;
+    width: 26vw;
+    padding: 0;
+    height: 6vh;
+  }
+  .sepBar div {
+    left: -0.2em;
+    font-size: 2.2em;
+  }
+  #toDoSec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 56vh;
+    overflow-x: scroll;
+  }
+  .toDoSecSub {
+    height: 100%;
+    min-width: 321%;
+    display: flex;
+    position: relative;
+    left: 58em;
+    align-items: center;
+  }
+  .toDo {
+    width: 79vw;
+    height: 39vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #section {
+    width: 228vw;
+  }
+  .testBar {
+    width: 205vw;
+    height: 22vh;
+    left: 8.5%;
+    top: 74%;
+  }
+  .testBarUp {
+    font-size: 0.9em;
+  }
+  .testBarUp button {
+    top: -157%;
+    padding: 0;
+    font-size: 01em;
+    height: 6vh;
+    width: 19vw;
+  }
+  .testBarDown button {
+    padding: 0em;
+    font-size: 1em;
+    width: 24vw;
+    height: 7vh;
+  }
+  .testBarDown div {
+    display: flex;
+    justify-content: center;
+    width: 57vw;
+  }
+  .testBarDown input {
+    font-size: 1.3em;
+    padding: 0;
+    padding-left: 15px;
+    height: 6vh;
+    width: 51vw;
+  }
+  .toDo {
+    width: 91vw;
+    height: 36vh;
+  }
+  .testBarDownMob {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 3vh;
+  }
+  .holidayExpOptMod {
+    width: 95vw;
+    height: 5vh;
+    font-size: 1.2em;
+  }
+  .expHolInputDate {
+    font-size: 1.5em;
+    width: 70vw;
+    height: 6vh;
+  }
+  .expHolInput {
+    font-size: 0.8em;
+    width: 100%;
+    border: 1px solid #bbbbc2;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #section {
+    width: 223vw;
+  }
+  .phuketDiv {
+    width: 44%;
+  }
+  .testBar {
+    font-size: 0.8em;
+    width: 191vw;
+    height: 22vh;
+  }
+  .testBarUp h1 {
+    font-size: 2em;
+  }
+  .testBarUp button {
+    top: -49%;
+    padding: 0;
+    font-size: 1.7em;
+  }
+  .testBarDownMob {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 9vh;
+  }
+  .holidayExpOptMod {
+    width: 95vw;
+    height: 5vh;
+    font-size: 1.9em;
+  }
+  .expHolInputDate {
+    font-size: 1.9em;
+    width: 70vw;
+    height: 6vh;
+  }
+  .testBarDown div {
+    width: 29vw;
+  }
+  .testBarDown input {
+    font-size: 1.8em;
+    width: 58vw;
+  }
+  .testBarDown button {
+    font-size: 1.8em;
+  }
+  .sepBar div {
+    left: -0.2em;
+  }
+  #toDoSec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 56vh;
+    overflow-x: scroll;
+  }
+  .toDoSecSub {
+    height: 100%;
+    min-width: 321%;
+    display: flex;
+    position: relative;
+    left: 48em;
+    align-items: center;
+  }
+  .toDo {
+    width: 79vw;
+    height: 39vh;
+    font-size: 2.5em;
+  }
+}

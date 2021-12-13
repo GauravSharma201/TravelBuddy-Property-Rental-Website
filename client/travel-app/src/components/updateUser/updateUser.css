@@ -1,0 +1,285 @@
+.updateUserSec {
+  width: 100%;
+  height: 100vh;
+  /* background-color: khaki; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updateUsrCont {
+  width: 30vw;
+  height: 80vh;
+  /* background-color: blueviolet; */
+  border-radius: 13px;
+  font-family: system-ui;
+  color: #464646;
+  box-shadow: 2px 2px 6px 3px #00000052;
+  border: 7px solid #55e7fc;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.editForm {
+  width: 24vw;
+  height: 64vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: cadetblue; */
+  flex-direction: column;
+  border: 1px solid #bbbbc2;
+  position: relative;
+  border-radius: 9px;
+  top: -5%;
+}
+.editForm input {
+  padding: 0.7em;
+  border: 1px solid #bbbbc2;
+  font-family: system-ui;
+  border-radius: 9px;
+  color: #464646;
+}
+.editForm button {
+  cursor: pointer;
+  background-color: #3f88d5;
+  color: rgb(237 241 243);
+  border-radius: 12px;
+  border: none;
+  margin-top: 1em;
+  width: 6vw;
+  padding: 1em;
+  font-weight: bolder;
+  font-size: 0.69em;
+}
+.editImgPreview {
+  width: 4vw;
+  height: 6vh;
+  border-radius: 100%;
+}
+.linkCss {
+  text-decoration: none;
+  color: inherit;
+}
+.updUserAddInp {
+  width: 20vw;
+  height: 10vh;
+  padding: 0;
+  padding-left: 15px;
+  border: 1px solid #bbbbc2;
+  font-family: system-ui;
+  border-radius: 9px;
+  color: #464646;
+}
+.updUserInpFile {
+  width: 0;
+  height: 0;
+}
+.photoCameraLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7vw;
+  height: 4vh;
+  cursor: pointer;
+  background-color: #0162c8;
+  border-radius: 9px;
+  color: white;
+}
+.chooseImgUserUpd {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid #cbd0d3;
+  border-bottom: 1px solid #cbd0d3;
+  width: 20vw;
+  min-height: 9vh;
+}
+.updateUserLabel {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 1920px) {
+  .editFormInput {
+    font-size: 1.2em;
+    width: 20vw;
+    height: 5vh;
+  }
+  .updateUsrCont {
+    width: 38vw;
+    height: 80vh;
+    font-size: 1.1em;
+  }
+  .editForm {
+    width: 32vw;
+    height: 64vh;
+  }
+  .updateUserLabel {
+    font-size: 1.3em;
+  }
+  .updUserAddInp {
+    width: 20vw;
+    height: 10vh;
+    font-size: 1.2em;
+  }
+  .editForm button {
+    width: 6vw;
+    height: 5vh;
+    font-size: 1.4em;
+    font-weight: normal;
+    font-family: system-ui;
+    padding: 0;
+  }
+  .linkCss {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .updateUserLabel {
+    font-size: 1em;
+  }
+  .editFormInput {
+    font-size: 1em;
+    width: 20vw;
+    height: 5vh;
+  }
+  .updUserAddInp {
+    width: 20vw;
+    height: 10vh;
+    font-size: 1em;
+  }
+  .editForm button {
+    width: 6vw;
+    height: 5vh;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: system-ui;
+    padding: 0;
+  }
+  .linkCss {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .updateUserSec {
+    width: 215vw;
+    height: 164vh;
+  }
+  .updateUsrCont {
+    width: 175vw;
+    height: 137vh;
+    font-size: 1.1em;
+  }
+  .editForm {
+    width: 145vw;
+    height: 105vh;
+  }
+  .updateUserLabel {
+    font-size: 2.5em;
+  }
+  .editFormInput {
+    font-size: 2em;
+    width: 104vw;
+    height: 6vh;
+  }
+  .updUserAddInp {
+    width: 107vw;
+    height: 19vh;
+    font-size: 2em;
+  }
+  .editImgPreview {
+    width: 15vw;
+    height: 7vh;
+    border-radius: 100%;
+  }
+  .photoCameraLabel {
+    width: 31vw;
+    height: 5vh;
+  }
+  .editForm button {
+    width: 34vw;
+    height: 6vh;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: system-ui;
+    padding: 0;
+  }
+  .chooseImgUserUpd {
+    width: 112vw;
+    min-height: 9vh;
+  }
+  .editImgPreview {
+    width: 15vw;
+    height: 7vh;
+    border-radius: 100%;
+  }
+  .photoCameraLabel {
+    width: 31vw;
+    height: 5vh;
+  }
+  .linkCss {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .updateUserSec {
+    width: 228vw;
+    height: 170vh;
+  }
+  .updateUsrCont {
+    font-size: 1em;
+    width: 174vw;
+    justify-content: space-around;
+    height: 140vh;
+  }
+  .updateUserLabel {
+    font-size: 1.13em;
+  }
+  .editForm {
+    width: 145vw;
+    height: 111vh;
+    font-size: 1.8em;
+    top: -1%;
+  }
+  .editForm input {
+    font-size: 0.983em;
+  }
+  .editFormInput {
+    font-size: 0.986em;
+    width: 116vw;
+  }
+  .updUserAddInp {
+    width: 117vw;
+    height: 19vh;
+    font-size: 1em;
+  }
+  .updUserInpFile {
+    width: 0;
+    height: 0;
+    padding: 0;
+    font-size: 0;
+  }
+  .linkCss {
+    font-size: 1.9em;
+  }
+  .chooseImgUserUpd {
+    width: 107vw;
+    min-height: 15vh;
+  }
+  .editImgPreview {
+    width: 19vw;
+    height: 11vh;
+  }
+  .photoCameraLabel {
+    width: 43vw;
+    height: 9vh;
+  }
+  .editForm button {
+    width: 33vw;
+    height: 10vh;
+    font-size: 0.9em;
+  }
+}

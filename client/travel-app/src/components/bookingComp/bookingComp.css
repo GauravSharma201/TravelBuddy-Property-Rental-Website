@@ -1,0 +1,307 @@
+.bookingCompCont {
+  width: 100%;
+  height: 100%;
+  color: rgb(0 0 0 / 64%);
+  font-family: system-ui;
+  border: 7px solid #55e7fc;
+  box-shadow: 0.1em 0.1em 0.3em 0.1em #00000061;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bookingCompCont input {
+  color: rgb(0 0 0 / 64%);
+  font-family: system-ui;
+  padding: 1em;
+  border: 1px solid #00000021;
+  height: 4vh;
+  border-radius: 9px;
+}
+.bookingComp {
+  display: none;
+  position: absolute;
+  box-shadow: 0.1em 0.1em 0.3em 0.1em #00000061;
+  top: 66%;
+}
+.bookingCompAct {
+  display: inline-flex;
+}
+.numOfGuestBtn {
+  width: 11vw;
+  height: 7vh;
+  border-radius: 13px;
+  background-color: rgb(32 117 206 / 86%);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.numOfGuestCont {
+  width: 11vw;
+  min-height: 30vh;
+  background-color: #edf1f3;
+  display: none;
+  border-radius: 13px;
+  box-shadow: rgb(0 0 0 / 47%) 3px 3px 6px 1px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+}
+.numGuestAct {
+  display: flex;
+}
+.numOfGuestContSpan {
+  width: 10vw;
+  height: 4vh;
+  background-color: #cbd0d34f;
+  border-radius: 5px;
+  color: #00000057;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.actNumGuest {
+  background-color: white;
+  color: #525151;
+}
+.rdrDefinedRangesWrapper {
+  display: none;
+}
+.bookingDatesDisplay {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8em;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.checkAvailCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkAvailDatesBtn {
+  width: 17vw;
+  height: 10vh;
+  border-radius: 13px;
+  background-color: rgb(32 117 206 / 86%);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bookingBtn {
+  cursor: pointer;
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+  color: rgb(237 241 243);
+  border-radius: 18px;
+  box-shadow: 2px 2px 6px 3px #00000021;
+  border: 2px solid rgb(255 193 7);
+  padding: 1em;
+  font-weight: bolder;
+  font-size: 0.8em;
+}
+.bookingCompLabel {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 1920px) {
+  .bookingCompCont {
+    width: 100%;
+    height: 100%;
+    color: rgb(0 0 0 / 64%);
+    font-family: system-ui;
+    font-size: 1.1em;
+  }
+  .bookingCompLabel {
+    font-size: 1.5em;
+  }
+  .bookingCompCont input {
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.2em;
+    height: 4vh;
+    width: 15vw;
+  }
+  .numOfGuestBtn {
+    font-size: 1.4em;
+  }
+  .numOfGuestContSpan {
+    font-size: 1.2em;
+  }
+  .checkAvailDatesBtn {
+    font-size: 1.4em;
+  }
+  .rdrCalendarWrapper {
+    color: #000000;
+    font-size: 17px;
+  }
+  .rdrMonth {
+    width: 20vw;
+  }
+  .rdrMonthAndYearPickers select {
+    font-size: 1.1em;
+  }
+  .bookingBtn {
+    padding: 0;
+    height: 6vh;
+    width: 6vw;
+    font-weight: normal;
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .bookingCompCont input {
+    width: 15vw;
+    font-size: 1.1em;
+  }
+  .numOfGuestBtn {
+    font-size: 1.2em;
+  }
+  .checkAvailDatesBtn {
+    font-size: 1.2em;
+  }
+  .bookingBtn {
+    font-size: 1.3em;
+  }
+  .rdrCalendarWrapper {
+    color: #000000;
+    font-size: 15px;
+  }
+  .rdrMonth {
+    width: 20vw;
+  }
+  .rdrMonthAndYearPickers select {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .bookingCompLabel {
+    font-size: 1.2em;
+  }
+  .bookingCompCont input {
+    font-size: 1.1em;
+  }
+  .numOfGuestBtn {
+    font-size: 1em;
+  }
+  .numOfGuestContSpan {
+    font-size: 1em;
+  }
+  .checkAvailDatesBtn {
+    font-size: 1em;
+  }
+  .bookingBtn {
+    font-size: 1em;
+    height: 5vh;
+    width: 6vw;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .bookingCompCont {
+    font-size: 1.7em;
+  }
+  .numOfGuestBtn {
+    width: 52vw;
+    height: 8vh;
+  }
+  .numOfGuestCont {
+    width: 52vw;
+    min-height: 30vh;
+  }
+  .numOfGuestContSpan {
+    width: 48vw;
+    height: 4vh;
+  }
+  .bookingCompCont input {
+    font-size: 1.1em;
+  }
+  .checkAvailDatesBtn {
+    width: 99vw;
+    height: 14vh;
+  }
+  .bookingBtn {
+    font-size: 1.2em;
+    height: 8vh;
+    width: 28vw;
+  }
+  .rdrCalendarWrapper {
+    color: #000000;
+    font-size: 20px;
+  }
+  .rdrMonth {
+    width: 90vw;
+  }
+  .rdrMonthAndYearPickers select {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .bookingCompCont input {
+    width: 83vw;
+    font-size: 1.1em;
+    height: 10vh;
+    padding: 0;
+    padding-left: 15px;
+  }
+  .numOfGuestCont {
+    width: 52vw;
+    min-height: 36vh;
+  }
+  .rdrCalendarWrapper {
+    color: #000000;
+    font-size: 20px;
+  }
+  .rdrMonth {
+    width: 100vw;
+  }
+  .rdrMonthAndYearPickers select {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .bookingCompCont {
+    font-size: 1.4em;
+  }
+  .numOfGuestBtn {
+    width: 52vw;
+    height: 8vh;
+  }
+  .numOfGuestCont {
+    width: 52vw;
+    min-height: 30vh;
+  }
+  .numOfGuestContSpan {
+    width: 48vw;
+    height: 4vh;
+  }
+  .bookingCompCont input {
+    font-size: 1em;
+  }
+  .checkAvailDatesBtn {
+    width: 99vw;
+    height: 14vh;
+  }
+  .rdrCalendarWrapper {
+    color: #000000;
+    font-size: 17px;
+  }
+  .rdrMonth {
+    width: 73vw;
+  }
+  .rdrMonthAndYearPickers select {
+    font-size: 1.1em;
+  }
+}

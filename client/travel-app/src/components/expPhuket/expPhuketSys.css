@@ -1,0 +1,64 @@
+#expPhuket {
+  width: 100%;
+  height: 210vh;
+}
+.subExpPhuket_Up {
+  width: 100%;
+  height: 24vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 11px;
+}
+.subExpPhuket_Up h1 {
+  font-size: 3em;
+  color: #0162c8;
+  text-shadow: 1px 4px 4px #0000004d;
+  margin: 0px 0px 19px 0px;
+}
+.subExpPhuket_Up h3 {
+  margin: 3px 0px;
+}
+.subExpPhuket_Up h4 {
+  margin-bottom: 3px;
+  color: rgb(0 0 0 / 57%);
+  text-shadow: 1px 4px 4px #0000004d;
+}
+
+.subExpPhuket_Down {
+  width: 100%;
+  height: 186vh;
+  display: flex;
+  flex-direction: row;
+}
+.hotels {
+  width: 50%;
+  height: 100%;
+}
+.siteInfo {
+  width: 50%;
+  height: 100%;
+  background-color: pink;
+}
+.pagination {
+  width: 100%;
+  border-top: 1px solid #000000a8;
+  height: 21vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stickCont {
+  background-color: red;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  height: 100vh;
+  top: 0;
+}
+.hotelListCont {
+  width: 100%;
+  height: 165vh;
+}

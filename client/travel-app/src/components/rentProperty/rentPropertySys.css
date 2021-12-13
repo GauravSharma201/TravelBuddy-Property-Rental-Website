@@ -1,0 +1,310 @@
+.rentPropertySec {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.rentPropSubCont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.processHeading {
+  position: sticky;
+  background-color: white;
+  border-radius: 13px;
+  font-family: system-ui;
+  color: #0162c8;
+  font-size: 1.7em;
+  font-weight: bold;
+  box-shadow: 2px 2px 6px 3px #00000052;
+  border: 7px solid #55e7fc;
+  top: 0;
+  width: 100%;
+  height: 77vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addressFormContCrtProp {
+  width: 45vw;
+  height: 64vh;
+  background-color: white;
+  box-shadow: 2px 2px 6px 3px #bbbbc299;
+  display: flex;
+  border-radius: 9px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.selectAmenitiesContCrtProp {
+  width: 45vw;
+  height: 73vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.uploadImagesContCrtProp {
+  width: 45vw;
+  height: 64vh;
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: 2px 2px 6px 3px #bbbbc299;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.propertyDetContCrtProp {
+  width: 45vw;
+  min-height: 71vh;
+  box-shadow: 2px 2px 6px 3px #bbbbc299;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow-y: scroll;
+  align-items: center;
+}
+.propertyDetContCrtProp::-webkit-scrollbar {
+  display: none;
+}
+.navigationCont {
+  width: 45vw;
+  height: 10vh;
+  background-color: white;
+  box-shadow: 2px 2px 6px 3px #bbbbc299;
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navigationCont button {
+  cursor: pointer;
+  background-color: #3f88d5;
+  color: rgb(237 241 243);
+  border-radius: 12px;
+  border: none;
+  margin-top: 1em;
+  width: 6vw;
+  padding: 1em;
+  font-weight: bolder;
+  font-size: 0.69em;
+}
+.addressFormCrtProp {
+  width: 25vw;
+  height: 61vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: chartreuse;
+}
+
+/* copied from other  */
+.countrySelec {
+  width: 36vw;
+  height: 7vh;
+  background-color: chartreuse;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-radius: 13px;
+}
+.optionContCountry {
+  width: 36vw;
+  max-height: 0vh;
+  background-color: chartreuse;
+  overflow-y: scroll;
+  border-radius: 9px;
+  position: relative;
+  display: block;
+  transition: max-height 400ms linear;
+}
+.optionContCountry::-webkit-scrollbar {
+  display: none;
+}
+.actvTest {
+  max-height: 36vh;
+  transition: max-height 400ms linear;
+}
+.optionCountrySubCont {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(105, 34, 34);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.countryOptions {
+  width: 100%;
+  height: 5vh;
+  background-color: chocolate;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1px 0px;
+}
+
+.optionContState {
+  width: 36vw;
+  max-height: 0vh;
+  background-color: chartreuse;
+  overflow-y: scroll;
+  position: relative;
+  border-radius: 9px;
+  display: block;
+  transition: max-height 400ms linear;
+}
+.optionContState::-webkit-scrollbar {
+  display: none;
+}
+
+.countSelectorCont {
+  width: 36vw;
+  height: 7vh;
+  background-color: pink;
+}
+.addressInputRentalProp {
+  width: 23vw;
+  height: 11vh;
+  border: 1px solid #849095;
+  color: #454a4c;
+  font-family: system-ui;
+  padding: 0.7em;
+  border-radius: 8px;
+}
+.AmenRentalPropCont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: 2px 2px 6px 3px #bbbbc299;
+  width: 45vw;
+  border-radius: 9px;
+  height: 64vh;
+}
+
+.rentalAmenColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+}
+.rentalAmenColSubDiv {
+  width: 14vw;
+  height: 18vh;
+  background-color: rgb(226 229 231 / 49%);
+  color: #849095;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.uploadImgRentProp {
+  width: 43vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 3px dashed #849095;
+  border-radius: 9px;
+}
+.upldImgInpRentProp {
+  position: relative;
+  width: 19vw;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upldImgInpRentProp label {
+  background-color: #3f88d5;
+  width: 9vw;
+  height: 5vh;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rentPropUpldedImg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.3em;
+  width: 42vw;
+  height: 49vh;
+}
+.rentPropupldImgArea {
+  width: 100%;
+  height: 24vh;
+  margin: 2px 0px;
+  border-radius: 9px;
+  border: 3px dashed #c5c7c9;
+}
+.upldedImg {
+  width: 100%;
+  height: 100%;
+}
+.upldImgInpRentProp input {
+  width: 0;
+  height: 0;
+}
+.rentalPropDetForm {
+  width: 41vw;
+  height: 64vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.rentalPropDetForm input {
+  padding: 0.7em;
+  border-radius: 9px;
+  border: 1px solid #bbbbc2;
+  font-family: system-ui;
+  box-shadow: 2px 2px 6px 1px rgb(226 229 231 / 70%);
+  color: #5c5c5c;
+}
+/* .rentalRoomSelCont {
+    width: 3vw;
+    height: 3vh;
+    background-color: burlywood;
+    display: flex;
+  } */
+.rentalRoomSel {
+  width: 3vw;
+  height: 3vh;
+  background-color: burlywood;
+  display: flex;
+}
+/* .rentalRoomOpt {
+    width: 3vw;
+    height: 3vh;
+    background-color: burlywood;
+    display: flex;
+  } */
+.actvAmen {
+  background-color: #cbd0d3;
+  color: #282727d9;
+}
+.propertyDetContCrtPropSub {
+  width: 100%;
+  min-height: 113%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 19px 0px;
+}

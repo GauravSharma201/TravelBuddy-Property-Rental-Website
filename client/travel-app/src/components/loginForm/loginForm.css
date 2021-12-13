@@ -1,0 +1,141 @@
+.loginFormComp {
+  width: 23vw;
+  height: 28vh;
+  position: relative;
+  top: 13%;
+  left: 6.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.loginFormComp input {
+  border: 1px solid #bbbbc2;
+  background-color: white;
+  height: 4vh;
+  padding: 1em;
+  font-family: system-ui;
+  border-radius: 9px;
+  color: #464646;
+}
+.loginFormComp button {
+  border: 1px solid #bbbbc2;
+  background-color: #055ab3;
+  padding: 0.5em;
+  width: 5vw;
+  font-family: system-ui;
+  font-size: 0.8rem;
+  margin-top: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 9px;
+  color: white;
+}
+.loginFormLabel {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 1920px) {
+  .loginFormLabel {
+    font-size: 1.2em;
+  }
+  .userOptions span {
+    font-size: 1.2em;
+  }
+  .loginFormComp input {
+    height: 4vh;
+    width: 18vw;
+    padding-left: 15px;
+    font-size: 1.2em;
+  }
+  .loginFormComp button {
+    padding: 0;
+    width: 5vw;
+    height: 4vh;
+    font-size: 1.4rem;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .loginFormComp {
+    width: 31vw;
+    height: 34vh;
+    top: 10%;
+    left: 2.5%;
+  }
+  .userOptions span {
+    font-size: 1.2em;
+    width: 12vw;
+  }
+  .loginFormComp button {
+    width: 6vw;
+    height: 5vh;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .loginFormComp button {
+    width: 6vw;
+    height: 5vh;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .loginFormComp input {
+    font-size: 1.2em;
+    height: 4vh;
+    width: 119vw;
+    padding-left: 15px;
+  }
+  .loginFormComp {
+    width: 160vw;
+    height: 62vh;
+    top: 10%;
+    left: 7.5%;
+  }
+  .loginFormComp button {
+    width: 30vw;
+    height: 7vh;
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .loginFormComp input {
+    font-size: 1.3em;
+    height: 12vh;
+    width: 145vw;
+    padding: 0em;
+    padding-left: 15px;
+  }
+  .loginFormComp button {
+    width: 30vw;
+    height: 10vh;
+    font-size: 1.8rem;
+  }
+  .loginFormLabel {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .loginFormLabel {
+    font-size: 1.8em;
+  }
+  .loginFormComp input {
+    font-size: 1.8em;
+  }
+  .loginFormComp {
+    width: 153vw;
+    height: 65vh;
+  }
+  .loginFormComp button {
+    width: 30vw;
+  }
+  .userOptions span {
+    font-size: 1.8em;
+    width: 12vw;
+  }
+}

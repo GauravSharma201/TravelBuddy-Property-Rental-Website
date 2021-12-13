@@ -1,0 +1,210 @@
+.regForm {
+  width: 29vw;
+  height: 61vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: #464646;
+  font-family: system-ui;
+  top: 7%;
+  left: 9%;
+}
+.regForm input {
+  border: 1px solid #bbbbc2;
+  background-color: white;
+  height: 4vh;
+  padding: 1em;
+  font-family: system-ui;
+  border-radius: 9px;
+  color: #464646;
+}
+.regForm div {
+  margin: 9px 0px;
+  width: 22vw;
+  height: 7vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.regImgPreview {
+  width: 6vw;
+  height: 11vh;
+  border-radius: 100%;
+}
+.regForm button {
+  border: 1px solid #bbbbc2;
+  background-color: #055ab3;
+  padding: 0.5em;
+  width: 5vw;
+  font-family: system-ui;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-top: 1em;
+  font-weight: bold;
+  border-radius: 9px;
+  color: white;
+}
+.regFormImgUpld label {
+  background-color: #357cc7;
+  border-radius: 9px;
+  width: 10vw;
+  cursor: pointer;
+  color: white;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.regFormImgUpld input {
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+.registerFormLabel {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 1920px) {
+  .registerFormLabel {
+    font-size: 1.2em;
+  }
+  .regFormImgUpld label {
+    width: 8vw;
+  }
+  .regForm input {
+    height: 4vh;
+    width: 18vw;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.2em;
+  }
+  .regFormImgUpld input {
+    width: 0;
+    font-size: 0;
+    height: 0;
+    padding: 0;
+  }
+  .regForm button {
+    padding: 0;
+    width: 7vw;
+    height: 5vh;
+    font-size: 1.5rem;
+    margin-top: 1em;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .regForm input {
+    height: 5vh;
+  }
+  .regForm button {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .regForm button {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .regForm {
+    width: 160vw;
+    height: 130vh;
+    font-size: 1.3em;
+    top: 4%;
+    left: 5%;
+  }
+  .registerFormLabel {
+    font-size: 1em;
+  }
+  .regForm input {
+    font-size: 1em;
+    height: 9vh;
+    width: 121vw;
+  }
+  .regForm div {
+    width: 98vw;
+    height: 14vh;
+  }
+  .regImgPreview {
+    width: 30vw;
+    height: 15vh;
+  }
+  .regFormImgUpld label {
+    width: 39vw;
+    height: 7vh;
+  }
+  .regForm button {
+    width: 46vw;
+    height: 9vh;
+    font-size: 1em;
+  }
+  .userOptionsReg span {
+    width: 10vw;
+    height: 4vh;
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .registerForm {
+    font-size: 1.5em;
+  }
+  .regForm input {
+    font-size: 1.07em;
+    padding: 0;
+    height: 10vh;
+    padding-left: 15px;
+    width: 134vw;
+  }
+  .regFormImgUpld input {
+    width: 0;
+    font-size: 0;
+    height: 0;
+    padding: 0;
+  }
+  .regForm button {
+    font-size: 1.75rem;
+    height: 9vh;
+    width: 47vw;
+  }
+  .userOptionsReg span {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .regForm {
+    width: 160vw;
+    height: 130vh;
+    font-size: 1.3em;
+    top: 4%;
+    left: 5%;
+  }
+  .regForm input {
+    font-size: 1.1em;
+  }
+  .regForm div {
+    width: 98vw;
+    height: 14vh;
+  }
+  .regImgPreview {
+    width: 30vw;
+    height: 15vh;
+  }
+  .regFormImgUpld label {
+    width: 39vw;
+    height: 7vh;
+  }
+  .regForm button {
+    font-size: 1.75rem;
+    height: 9vh;
+    width: 47vw;
+  }
+}

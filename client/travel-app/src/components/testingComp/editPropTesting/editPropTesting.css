@@ -1,0 +1,583 @@
+.testingEditProp {
+  width: 100%;
+  height: 100vh;
+}
+.editPropGridCont {
+  /* background-color: burlywood; */
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1vw;
+}
+.editPropSubCont {
+  /* background-color: cadetblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.editPropInsCont {
+  background-color: white;
+  width: 39vw;
+  border-radius: 13px;
+  font-family: system-ui;
+  color: #0162c8;
+  height: 74vh;
+  font-size: 1.7em;
+  font-weight: bold;
+  display: flex;
+  box-shadow: 2px 2px 6px 3px #00000052;
+  border: 7px solid #55e7fc;
+  justify-content: center;
+  align-items: center;
+}
+.editPropDetCont {
+  /* background-color: orange; */
+  width: 42vw;
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.editPropDetContSub {
+  /* background-color: red; */
+  width: 42vw;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.editPropDetNavigator {
+  width: 30vw;
+  box-shadow: 2px 2px 6px 3px #bbbbc2;
+  height: 10vh;
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.setImageUpdPropContTest {
+  width: 42vw;
+  height: 69vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.updPropImgContTest {
+  width: 42vw;
+  height: 57vh;
+  display: grid;
+  grid-row-gap: 7px;
+  row-gap: 7px;
+  border: 1px solid #cbd0d3;
+  box-shadow: 2px 2px 6px 3px #bbbbc2;
+  border-radius: 9px;
+  grid-column-gap: 3px;
+  column-gap: 3px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.setUpdPropImgContTest {
+  width: 42vw;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(226 229 231);
+}
+.setUpdPropImgContTest label {
+  cursor: pointer;
+  background-color: #3f88d5;
+  color: rgb(237 241 243);
+  border-radius: 12px;
+  border: none;
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
+  box-shadow: 2px 2px 6px 1px #bbbbc2;
+  width: 8vw;
+  align-items: center;
+  padding: 0.7em;
+  font-weight: bolder;
+  font-size: 0.69em;
+}
+.setUpdPropImgContTest input {
+  padding: 0;
+  height: 0;
+  width: 0;
+}
+.updPropAmenContTest {
+  width: 42vw;
+  height: 62vh;
+  display: grid;
+  row-gap: 3px;
+  box-shadow: 2px 2px 6px 3px #00000052;
+  column-gap: 3px;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 9px;
+  background-color: white;
+}
+.updPropAmenSubContTest {
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updPropAmenTest {
+  width: 10vw;
+  height: 18vh;
+  border-radius: 13px;
+  color: #282727d9;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  align-items: center;
+  background-color: #cbd0d3;
+}
+.actvUdpPropTest {
+  background-color: rgb(226 229 231 / 49%);
+  color: #849095;
+}
+.navigationBtn {
+  cursor: pointer;
+  background-color: #3f88d5;
+  color: rgb(237 241 243);
+  border-radius: 12px;
+  border: none;
+  margin-top: 1em;
+  width: 6vw;
+  padding: 1em;
+  font-weight: bolder;
+  font-size: 0.69em;
+}
+
+/* copied code editMyProp */
+
+.editPropSection {
+  width: 100%;
+  min-height: 300vh;
+}
+.updPropertyForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: system-ui;
+  color: #464646;
+  align-items: center;
+  height: 300vh;
+}
+.updPropRoomCont {
+  width: 27vw;
+  height: 10vh;
+  display: flex;
+  border-radius: 9px;
+  justify-content: space-around;
+  box-shadow: 2px 2px 6px 0px #00000052;
+  align-items: center;
+  background-color: #b4d0d540;
+}
+.editMyPropInp {
+  border: 1px solid #849095;
+  font-family: system-ui;
+  color: #464646;
+  box-shadow: 2px 2px 6px 3px rgb(226 229 231 / 70%);
+  font-size: 0.86em;
+  width: 24vw;
+  padding: 0.5em;
+  border-radius: 9px;
+}
+.setUpdPropRoom {
+  width: 4vw;
+  height: 6vh;
+  display: flex;
+  border-radius: 13px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px 0px #00000052;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  background-color: #3f88d5;
+}
+.setUpdPropRoomDis {
+  width: 5vw;
+  height: 6vh;
+  display: flex;
+  border-radius: 13px;
+  color: #5c5c5c;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbd0d3;
+}
+.setImageUpdPropCont {
+  width: 79vw;
+  height: 69vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #76634a;
+}
+.updPropImgCont {
+  width: 76vw;
+  height: 56vh;
+  overflow-y: scroll;
+  display: grid;
+  row-gap: 7px;
+  column-gap: 3px;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(199 23 23);
+}
+.updPropImgSubCont {
+  width: 100%;
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updPropImgSubCont img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.setUpdPropImgCont {
+  width: 63vw;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.setUpdPropImgCont input {
+  width: 0;
+  height: 0;
+}
+.setUpdPropImgCont label {
+  width: 15vw;
+  height: 5vh;
+  background-color: red;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updPropAmenCont {
+  width: 68vw;
+  height: 37vh;
+  display: grid;
+  row-gap: 3px;
+  column-gap: 3px;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(8 163 104);
+}
+.updPropAmenSubCont {
+  width: 100%;
+  height: 12vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updPropAmen {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #849095;
+}
+.actvUdpProp {
+  background-color: white;
+}
+.editMyPropShortDes {
+  border: 1px solid #849095;
+  font-family: system-ui;
+  color: #464646;
+  box-shadow: 2px 2px 6px 3px rgb(226 229 231 / 70%);
+  width: 24vw;
+  padding: 0.5em;
+  border-radius: 9px;
+  font-size: 1em;
+}
+.editMyPropDes {
+  border: 1px solid #849095;
+  font-family: system-ui;
+  color: #464646;
+  box-shadow: 2px 2px 6px 3px rgb(226 229 231 / 70%);
+  width: 24vw;
+  padding: 0.5em;
+  border-radius: 9px;
+  font-size: 1em;
+}
+.editMyPropAddr {
+  border: 1px solid #849095;
+  font-family: system-ui;
+  color: #464646;
+  box-shadow: 2px 2px 6px 3px rgb(226 229 231 / 70%);
+  width: 24vw;
+  padding: 0.5em;
+  border-radius: 9px;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 1920px) {
+  .editPropInsCont {
+    background-color: white;
+    width: 39vw;
+    border-radius: 13px;
+    font-family: system-ui;
+    color: #0162c8;
+    height: 74vh;
+    font-size: 1.9em;
+    font-weight: bold;
+    display: flex;
+    box-shadow: 2px 2px 6px 3px #00000052;
+    border: 7px solid #55e7fc;
+    justify-content: center;
+    align-items: center;
+  }
+  .editMyPropInp {
+    font-size: 1.2em;
+    width: 24vw;
+    height: 4vh;
+    padding: 0;
+    padding-left: 15px;
+  }
+  .editMyPropShortDes {
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.2em;
+  }
+  .editMyPropDes {
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.2em;
+  }
+  .editMyPropAddr {
+    width: 24vw;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.2em;
+  }
+  .editPropDetNavigator {
+    width: 30vw;
+    box-shadow: 2px 2px 6px 3px #bbbbc2;
+    height: 10vh;
+    border-radius: 9px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .editPropDetContSub {
+    /* background-color: red; */
+    width: 42vw;
+    height: 78vh;
+    display: flex;
+    font-size: 1.1em;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navigationBtn {
+    width: 6vw;
+    height: 5vh;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.2em;
+  }
+  .setUpdPropRoomDis {
+    width: 5vw;
+    height: 6vh;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: system-ui;
+  }
+  .updPropAmenTest {
+    font-size: 1.4em;
+    font-family: system-ui;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .editMyPropInp {
+    height: 5vh;
+  }
+  .editMyPropShortDes {
+    width: 24vw;
+    height: 16vh;
+  }
+  .editMyPropDes {
+    height: 20vh;
+  }
+  .setUpdPropRoomDis {
+    width: 9vw;
+    height: 6vh;
+  }
+  .updPropAmenTest {
+    width: 13.4vw;
+    height: 19.4vh;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .editPropInsCont {
+    font-size: 1.5em;
+  }
+  .editMyPropInp {
+    font-size: 1.1em;
+  }
+  .editMyPropShortDes {
+    font-size: 1.1em;
+  }
+  .editMyPropDes {
+    font-size: 1.1em;
+  }
+  .editMyPropAddr {
+    font-size: 1.1em;
+  }
+  .setUpdPropRoomDis {
+    width: 7vw;
+    height: 6vh;
+    font-size: 1.1em;
+  }
+  .updPropAmenTest {
+    font-size: 1.2em;
+  }
+  .editPropDetNavigator {
+    font-size: 0.9em;
+  }
+  .editPropDetContSub {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .testingEditProp {
+    width: 213vw;
+    height: 164vh;
+  }
+  .editPropGridCont {
+    grid-template-columns: 100%;
+  }
+  .editPropDetCont {
+    width: 202vw;
+    height: 100%;
+  }
+  .editMyPropShortDes {
+    font-size: 2em;
+    width: 129vw;
+    height: 16vh;
+  }
+  .editMyPropDes {
+    font-size: 2em;
+    height: 20vh;
+    width: 130vw;
+  }
+  .editMyPropAddr {
+    font-size: 2em;
+    width: 128vw;
+    height: 20vh;
+  }
+  .editPropDetContSub {
+    width: 100%;
+    height: 107vh;
+    font-size: 0.9em;
+  }
+  .editPropDetNavigator {
+    width: 135vw;
+    height: 18vh;
+    font-size: 0.8em;
+  }
+  .navigationBtn {
+    width: 33vw;
+    height: 8vh;
+    font-size: 1.9em;
+  }
+  .editMyPropInp {
+    width: 128vw;
+    height: 7vh;
+    font-size: 2em;
+  }
+  .updPropRoomCont {
+    width: 98vw;
+    height: 19vh;
+  }
+  .setUpdPropRoom {
+    width: 19vw;
+    height: 9vh;
+  }
+  .setUpdPropRoomDis {
+    width: 28vw;
+    height: 12vh;
+    font-size: 2em;
+  }
+  .setImageUpdPropContTest {
+    width: 197vw;
+    height: 107vh;
+  }
+  .updPropImgContTest {
+    width: 100%;
+    height: 82vh;
+  }
+  .updPropImgSubCont {
+    width: 100%;
+    height: 26vh;
+  }
+  .setUpdPropImgContTest {
+    width: 72vw;
+    height: 12vh;
+  }
+  .setUpdPropImgContTest label {
+    width: 47vw;
+    height: 8vh;
+  }
+  .updPropAmenContTest {
+    width: 194vw;
+    height: 107vh;
+  }
+  .updPropAmenTest {
+    width: 61vw;
+    height: 34vh;
+    flex-direction: column;
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .testingEditProp {
+    width: 228vw;
+    height: 169vh;
+  }
+  .navigationBtn {
+    width: 33vw;
+    height: 8vh;
+    font-size: 1.9em;
+    padding: 0;
+  }
+  .setUpdPropRoomDis {
+    width: 37vw;
+    height: 12vh;
+    font-size: 2em;
+  }
+  .editMyPropInp {
+    width: 128vw;
+    height: 7vh;
+    font-size: 2em;
+    padding: 0;
+    padding-left: 15px;
+  }
+  .updPropAmenTest {
+    width: 61vw;
+    height: 34vh;
+    flex-direction: column;
+    font-size: 2em;
+  }
+}

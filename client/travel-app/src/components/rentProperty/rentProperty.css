@@ -1,0 +1,594 @@
+.rentPropertySec {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.rentPropSubCont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.processHeading {
+  position: sticky;
+  background-color: white;
+  border-radius: 13px;
+  font-family: system-ui;
+  color: #0162c8;
+  font-size: 1.7em;
+  font-weight: bold;
+  box-shadow: 2px 2px 6px 3px #00000052;
+  border: 7px solid #55e7fc;
+  top: 0;
+  width: 100%;
+  height: 77vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addressFormContCrtProp {
+  width: 45vw;
+  height: 64vh;
+  background-color: white;
+  box-shadow: 2px 2px 6px 3px #bbbbc299;
+  display: flex;
+  border-radius: 9px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.selectAmenitiesContCrtProp {
+  width: 45vw;
+  height: 73vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.uploadImagesContCrtProp {
+  width: 45vw;
+  height: 64vh;
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: 2px 2px 6px 3px #bbbbc299;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.propertyDetContCrtProp {
+  width: 45vw;
+  min-height: 71vh;
+  box-shadow: 2px 2px 6px 3px #bbbbc299;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow-y: scroll;
+  align-items: center;
+}
+.propertyDetContCrtProp::-webkit-scrollbar {
+  display: none;
+}
+.navigationCont {
+  width: 45vw;
+  height: 10vh;
+  background-color: white;
+  box-shadow: 2px 2px 6px 3px #bbbbc299;
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navigationCont button {
+  cursor: pointer;
+  background-color: #3f88d5;
+  color: rgb(237 241 243);
+  border-radius: 12px;
+  border: none;
+  margin-top: 1em;
+  width: 6vw;
+  padding: 1em;
+  font-weight: bolder;
+  font-size: 0.69em;
+}
+.addressFormCrtProp {
+  width: 25vw;
+  height: 61vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: chartreuse;
+}
+
+/* copied from other  */
+.countrySelec {
+  width: 36vw;
+  height: 7vh;
+  background-color: chartreuse;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-radius: 13px;
+}
+.optionContCountry {
+  width: 36vw;
+  max-height: 0vh;
+  background-color: chartreuse;
+  overflow-y: scroll;
+  border-radius: 9px;
+  position: relative;
+  display: block;
+  transition: max-height 400ms linear;
+}
+.optionContCountry::-webkit-scrollbar {
+  display: none;
+}
+.actvTest {
+  max-height: 36vh;
+  transition: max-height 400ms linear;
+}
+.optionCountrySubCont {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(105, 34, 34);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.countryOptions {
+  width: 100%;
+  height: 5vh;
+  background-color: chocolate;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1px 0px;
+}
+
+.optionContState {
+  width: 36vw;
+  max-height: 0vh;
+  background-color: chartreuse;
+  overflow-y: scroll;
+  position: relative;
+  border-radius: 9px;
+  display: block;
+  transition: max-height 400ms linear;
+}
+.optionContState::-webkit-scrollbar {
+  display: none;
+}
+
+.countSelectorCont {
+  width: 36vw;
+  height: 7vh;
+  background-color: pink;
+}
+.addressInputRentalProp {
+  width: 23vw;
+  height: 11vh;
+  border: 1px solid #849095;
+  color: #454a4c;
+  font-family: system-ui;
+  padding: 0.7em;
+  border-radius: 8px;
+}
+.AmenRentalPropCont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: 2px 2px 6px 3px #bbbbc299;
+  width: 45vw;
+  border-radius: 9px;
+  height: 64vh;
+}
+
+.rentalAmenColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+}
+.rentalAmenColSubDiv {
+  width: 14vw;
+  height: 18vh;
+  background-color: rgb(226 229 231 / 49%);
+  color: #849095;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.uploadImgRentProp {
+  width: 43vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 3px dashed #849095;
+  border-radius: 9px;
+}
+.upldImgInpRentProp {
+  position: relative;
+  width: 19vw;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upldImgInpRentProp label {
+  background-color: #3f88d5;
+  width: 9vw;
+  height: 5vh;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rentPropUpldedImg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.3em;
+  width: 42vw;
+  height: 49vh;
+}
+.rentPropupldImgArea {
+  width: 100%;
+  height: 24vh;
+  margin: 2px 0px;
+  border-radius: 9px;
+  border: 3px dashed #c5c7c9;
+}
+.upldedImg {
+  width: 100%;
+  height: 100%;
+}
+.upldImgInpRentProp input {
+  width: 0;
+  height: 0;
+}
+.rentalPropDetForm {
+  width: 41vw;
+  height: 64vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.rentalPropDetForm input {
+  padding: 0.7em;
+  border-radius: 9px;
+  border: 1px solid #bbbbc2;
+  font-family: system-ui;
+  box-shadow: 2px 2px 6px 1px rgb(226 229 231 / 70%);
+  color: #5c5c5c;
+}
+/* .rentalRoomSelCont {
+  width: 3vw;
+  height: 3vh;
+  background-color: burlywood;
+  display: flex;
+} */
+.rentalRoomSel {
+  width: 3vw;
+  height: 3vh;
+  background-color: burlywood;
+  display: flex;
+}
+/* .rentalRoomOpt {
+  width: 3vw;
+  height: 3vh;
+  background-color: burlywood;
+  display: flex;
+} */
+.actvAmen {
+  background-color: #cbd0d3;
+  color: #282727d9;
+}
+.propertyDetContCrtPropSub {
+  width: 100%;
+  min-height: 113%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 19px 0px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .processHeading {
+    position: sticky;
+    background-color: white;
+    border-radius: 13px;
+    font-family: system-ui;
+    color: #0162c8;
+    font-size: 1.9em;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px 3px #00000052;
+    border: 7px solid #55e7fc;
+    top: 0;
+    width: 100%;
+    height: 77vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .addressFormContCrtProp {
+    width: 45vw;
+    height: 64vh;
+    background-color: white;
+    box-shadow: 2px 2px 6px 3px #bbbbc299;
+    display: flex;
+    font-size: 1.1em;
+    border-radius: 9px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+  .addressInputRentalProp {
+    font-size: 1.2em;
+    font-family: system-ui;
+    padding: 0;
+    padding-left: 15px;
+  }
+  .navigationCont {
+    width: 45vw;
+    height: 10vh;
+    background-color: white;
+    font-size: 1.1em;
+    box-shadow: 2px 2px 6px 3px #bbbbc299;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .selectAmenitiesContCrtProp {
+    width: 45vw;
+    height: 73vh;
+    background-color: white;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .propertyDetContCrtPropSub {
+    width: 100%;
+    min-height: 113%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 19px 0px;
+  }
+  .rentalPropDetForm input {
+    padding: 0;
+    padding-left: 15px;
+    height: 4vh;
+    width: 13vw;
+    font-size: 1.2em;
+    font-family: system-ui;
+  }
+  .shortDescpPropDet {
+    width: 28vw;
+    height: 6vh;
+    border-radius: 8px;
+    border: 1px solid #bbbbc2;
+    font-size: 0.92em;
+    font-family: system-ui;
+    box-shadow: 2px 2px 6px 1px rgb(226 229 231 / 70%);
+    color: #5c5c5c;
+    padding: 0.7em;
+  }
+  .descpPropDet {
+    width: 28vw;
+    height: 14vh;
+    border-radius: 8px;
+    font-size: 0.92em;
+    border: 1px solid #bbbbc2;
+    font-family: system-ui;
+    box-shadow: 2px 2px 6px 1px rgb(226 229 231 / 70%);
+    color: #5c5c5c;
+    padding: 0.7em;
+  }
+  .navigationCont button {
+    width: 6vw;
+    height: 5vh;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.2em;
+  }
+  .rentalAmenColSubDiv {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .addressInputRentalProp {
+    font-size: 1.3em;
+    height: 13vh;
+  }
+
+  .rentalPropDetForm input {
+    font-size: 1.1em;
+    width: 20vw;
+    height: 6vh;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .processHeading {
+    font-size: 1.5em;
+  }
+  .addressFormContCrtProp {
+    font-size: 0.9em;
+  }
+  .navigationCont {
+    font-size: 0.9em;
+  }
+  .selectAmenitiesContCrtProp {
+    font-size: 0.9em;
+  }
+  .propertyDetContCrtPropSub {
+    font-size: 0.9em;
+  }
+  .rentalPropDetForm input {
+    font-size: 1.1em;
+    width: 20vw;
+    height: 4vh;
+  }
+  .shortDescpPropDet {
+    font-size: 0.82em;
+  }
+  .descpPropDet {
+    font-size: 0.82em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .rentPropertySec {
+    width: 213vw;
+    height: 163vh;
+    grid-template-columns: 100%;
+  }
+  .addressFormContCrtProp {
+    font-size: 0.9em;
+    width: 195vw;
+    height: 107vh;
+  }
+  .addressInputRentalProp {
+    width: 95vw;
+    height: 21vh;
+    font-size: 2em;
+  }
+  .navigationCont {
+    width: 150vw;
+    height: 16vh;
+    font-size: 1.1em;
+  }
+  .navigationCont button {
+    width: 29vw;
+    font-size: 1.5em;
+  }
+  .selectAmenitiesContCrtProp {
+    font-size: 1.2em;
+    flex-direction: column;
+    width: 193vw;
+    height: 107vh;
+  }
+  .AmenRentalPropCont {
+    width: 100%;
+    height: 100%;
+  }
+  .rentalAmenColSubDiv {
+    width: 61vw;
+    height: 33vh;
+    flex-direction: column;
+    font-size: 1.8em;
+  }
+  .uploadImagesContCrtProp {
+    width: 195vw;
+    height: 107vh;
+  }
+  .uploadImgRentProp {
+    width: 180vw;
+    height: 99vh;
+  }
+  .rentPropUpldedImg {
+    width: 169vw;
+    height: 85vh;
+  }
+  .rentPropupldImgArea {
+    width: 100%;
+    height: 42vh;
+  }
+  .upldImgInpRentProp {
+    width: 42vw;
+    height: 7vh;
+  }
+  .upldImgInpRentProp label {
+    width: 42vw;
+    height: 7vh;
+  }
+  .propertyDetContCrtProp {
+    width: 195vw;
+    min-height: 107vh;
+  }
+  .rentalPropDetForm {
+    width: 195vw;
+    height: 92vh;
+  }
+  .rentalPropDetForm input {
+    font-size: 2em;
+    width: 116vw;
+    height: 8vh;
+  }
+  .shortDescpPropDet {
+    width: 73vw;
+    height: 10vh;
+    font-size: 1.3em;
+  }
+  .descpPropDet {
+    width: 76vw;
+    height: 14vh;
+    font-size: 1.3em;
+  }
+  .rentalRoomSelCont {
+    width: 112vw;
+    height: 11vh;
+  }
+  .rentalRoomSel {
+    width: 27vw;
+    height: 6vh;
+    font-size: 1.3em;
+  }
+  .rentalRoomOpt {
+    width: 57vw;
+    height: 8vh;
+  }
+  .rentalRoombtn {
+    width: 16vw;
+    height: 6vh;
+  }
+  .rentalRoombtnVal {
+    width: 16vw;
+    height: 6vh;
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .navigationCont button {
+    width: 29vw;
+    height: 8vh;
+    font-size: 1.5em;
+  }
+  .rentalPropDetForm input {
+    font-size: 1.8em;
+    width: 116vw;
+    height: 8vh;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .rentPropertySec {
+    width: 223vw;
+    height: 166vh;
+    grid-template-columns: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.adminLoginModal {
+  width: 73vw;
+  height: 54vh;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminSection {
+  width: 100%;
+  min-height: 145vh;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginFormCompAdmin {
+  width: 23vw;
+  height: 27vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}

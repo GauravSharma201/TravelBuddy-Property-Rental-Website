@@ -1,0 +1,47 @@
+.slider {
+  position: relative;
+  top: 021%;
+  left: 019%;
+  width: 30vw;
+  height: 42vh;
+  perspective: 2500px;
+  transform-style: preserve-3d;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* border: 2px solid black; */
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 400ms ease;
+  cursor: pointer;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* copied */
+  border: 7px solid #55e7fc;
+  border-radius: 9px;
+}
+.lastDiv {
+  background-image: url("../../images/home/phuket.jpg");
+}
+/* .img {
+  width: 30vw;
+  height: 30vh;
+} */
+
+@media only screen and (max-width: 414px) {
+  .slider {
+    width: 80vw;
+    height: 33vh;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .slider {
+    width: 76vw;
+    height: 33vh;
+  }
+}

@@ -1,0 +1,956 @@
+.propertyDetail {
+  width: 100%;
+  height: 364vh;
+}
+.topSection {
+  width: 100%;
+  height: 81vh;
+}
+.middleSection {
+  width: 100%;
+  height: 133vh;
+  display: flex;
+  flex-direction: row;
+}
+.detailSection {
+  color: rgb(0 0 0 / 64%);
+  font-family: system-ui;
+  /* font-weight: bold; */
+  width: 50%;
+  height: 100%;
+}
+.bookingSection {
+  width: 50%;
+  height: 100%;
+}
+.bottomSection {
+  color: rgb(0 0 0 / 64%);
+  font-family: system-ui;
+  width: 100%;
+  height: 127vh;
+  /* background-color: blueviolet; */
+}
+.titleContainer {
+  width: 100%;
+  height: 14vh;
+  padding: 7px;
+}
+.titleContainer h1 {
+  font-size: 2em;
+  white-space: nowrap;
+  width: 99vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #0162c8e3;
+  font-family: system-ui;
+  font-weight: bold;
+}
+.imagesCont {
+  width: 100%;
+  height: 68vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 3px;
+  column-gap: 3px;
+  padding: 8px;
+}
+
+.singleImageCont img {
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+}
+.multImagesCont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3px;
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 3px;
+}
+
+.multImagesCont div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+}
+.properStats {
+  display: flex;
+  flex-direction: row;
+  color: rgb(0 0 0 / 64%);
+  font-family: system-ui;
+  font-weight: bold;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  top: 15%;
+}
+.statsCont {
+  justify-content: space-between;
+  min-width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.bookingContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.bookingModal {
+  /* background-color: darkgrey; */
+  width: 30vw;
+  height: 55vh;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+}
+.hostedByCont {
+  width: 100%;
+  height: 15vh;
+  margin-bottom: 1em;
+  padding: 0px 1em;
+}
+.hostedByCont h1 {
+  height: 9vh;
+  padding-top: 8px;
+}
+.hostedByCont p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 36vw;
+}
+.hostedByCont img {
+  /* background-color: aliceblue; */
+  width: 7vw;
+  height: 13vh;
+  border-radius: 100%;
+  float: right;
+  position: relative;
+  top: -72%;
+}
+.properDescrip {
+  width: 100%;
+  height: 53vh;
+  border-bottom: 1px solid #00000021;
+  border-top: 1px solid #00000021;
+  /* background-color: rgb(28, 203, 209); */
+  padding: 1em;
+}
+.properDescrip h1 {
+  width: 100%;
+  height: 10vh;
+  padding: 14px 0px 0px 0px;
+}
+.properDescrip div {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 1.1em;
+  word-spacing: 0.5em;
+  line-height: 1.5em;
+  width: 100%;
+  height: 37vh;
+}
+.properAmenties {
+  width: 100%;
+  height: 62vh;
+  /* background-color: rgb(12, 219, 140); */
+  display: flex;
+  padding: 1em;
+  align-items: center;
+}
+
+/* .AmenitiesContainer div {
+  background-color: darksalmon;
+  width: 6vw;
+  height: 6vh;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.AmenitiesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  /* background-color: darkslategray; */
+  width: 47vw;
+  height: 59vh;
+}
+.amenitiesContSub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.bottomSection h1 {
+  height: 12vh;
+  border-bottom: 1px solid #00000021;
+  border-top: 1px solid #00000021;
+  padding: 19px 0px 0px 0px;
+  font-size: 2em;
+}
+.reviewsCont {
+  /* background-color: rgb(12 219 140); */
+  width: 100%;
+  min-height: 78vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.addCommentSection {
+  width: 100%;
+  height: 50vh;
+  /* background-color: brown; */
+  border-top: 1px solid #00000021;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.ratingSection {
+  width: 30vw;
+  height: 10vh;
+  /* background-color: blue; */
+  border: 1px solid #00000021;
+  display: flex;
+  align-items: center;
+  border-radius: 13px 13px 0px 0px;
+}
+.commentSection {
+  width: 30vw;
+  height: 16vh;
+  background-color: rgb(0, 195, 255);
+  border-radius: 0px 0px 13px 13px;
+}
+
+.addedComment {
+  /* background-color: darkslategray; */
+  width: 30vw;
+  border: 1px solid #00000021;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+}
+.reviewsContDis {
+  /* background-color: rgb(12 219 140); */
+  width: 100%;
+  height: 78vh;
+  overflow-y: scroll;
+}
+.reviewsContDis::-webkit-scrollbar {
+  display: none;
+}
+.amenDiv {
+  background-color: rgb(237 241 243);
+  width: 11vw;
+  height: 15vh;
+  color: #00000057;
+  border-radius: 13px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.actvAmenDiv {
+  background-color: #cbd0d3;
+  color: #525151;
+}
+.commentSection textarea {
+  width: 100%;
+  height: 100%;
+  /* border: none; */
+  border: 1px solid #00000021;
+  padding: 1rem;
+  border-top: none;
+  border-radius: 0px 0px 13px 13px;
+}
+.commentSection textarea::-webkit-scrollbar {
+  display: none;
+}
+.addToCartCont {
+  min-width: 5vw;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 9px;
+  align-items: center;
+  cursor: pointer;
+}
+.addToCartCont:hover {
+  background-color: rgb(237 241 243);
+}
+.submitCommentBtn {
+  cursor: pointer;
+  background-color: #3f88d5;
+  color: rgb(237 241 243);
+  border-radius: 12px;
+  border: none;
+  margin-top: 1em;
+  width: 8vw;
+  padding: 1em;
+  font-weight: bolder;
+  font-size: 0.69em;
+}
+.descriptionModal {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 150vh;
+  background-color: rgb(61 60 60 / 69%);
+  display: none;
+  z-index: 7;
+  justify-content: center;
+}
+.descriptionMod {
+  width: 66vw;
+  height: 79vh;
+  position: relative;
+  display: flex;
+  top: 10vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  box-shadow: 0px 1px 3px 0px #00000073;
+  background-color: white;
+}
+.properDescripMod {
+  width: 100%;
+  height: 53vh;
+  color: #464646;
+  font-family: system-ui;
+  border-bottom: 1px solid #00000021;
+  border-top: 1px solid #00000021;
+  padding: 1em;
+}
+.properDescripMod h1 {
+  padding: 0px 0px 15px 0px;
+}
+.modalDescpDiv {
+  font-size: 1.1em;
+  word-spacing: 0.5em;
+  line-height: 1.5em;
+  width: 100%;
+  height: 41vh;
+  overflow-y: scroll;
+}
+.modalDescpDiv::-webkit-scrollbar {
+  display: none;
+}
+.actvDescpMod {
+  display: flex;
+}
+
+.showMoreDesBtn {
+  position: relative;
+  top: -10%;
+  font-size: 0.94rem;
+  float: right;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 9px;
+  color: #464646;
+  cursor: pointer;
+  background-color: rgb(226 229 231);
+  display: none;
+}
+.properDescrip:hover button {
+  display: block;
+}
+.showImagesBtn {
+  position: absolute;
+  /* top: 91%; */
+  font-size: 0.94rem;
+  bottom: 4rem;
+  /* right: 1%; */
+  padding: 0.3rem;
+  border: none;
+  border-radius: 9px;
+  color: #464646;
+  cursor: pointer;
+  background-color: rgb(226 229 231);
+  display: none;
+}
+.imagesCont:hover button {
+  display: block;
+}
+.showImagesModal {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 150vh;
+  background-color: rgb(61 60 60 / 69%);
+  display: none;
+  z-index: 7;
+  justify-content: center;
+}
+.showImgsMdlSub {
+  width: 92vw;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 4%;
+  background-color: rgb(49, 48, 48);
+  border-radius: 9px;
+}
+.actvShowImgMdl {
+  display: flex;
+}
+.showImagesCarousel {
+  width: 92vw;
+  height: 90vh;
+}
+.showImagesCarousel img {
+  width: 92vw;
+  height: 100vh;
+}
+.closeShowImgBtn {
+  color: white;
+  position: absolute;
+  top: 0%;
+  right: 0px;
+  cursor: pointer;
+  z-index: 9;
+}
+
+@media only screen and (max-width: 1920px) {
+  .topSection {
+    width: 100%;
+    height: 83vh;
+  }
+  .properStats {
+    display: flex;
+    flex-direction: row;
+    color: rgb(0 0 0 / 64%);
+    font-family: system-ui;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1.5em;
+    justify-content: space-between;
+    position: relative;
+    top: 35%;
+  }
+  .titleContainer {
+    width: 100%;
+    height: 13vh;
+    padding: 0px 7px;
+  }
+  .titleContainer h1 {
+    font-size: 2.5em;
+    white-space: nowrap;
+    width: 99vh;
+    overflow: hidden;
+    padding: 0.2em 0em;
+    text-overflow: ellipsis;
+    color: #0162c8e3;
+    font-family: system-ui;
+    font-weight: bold;
+  }
+  .hostedByCont h1 {
+    font-size: 1.7em;
+  }
+  .hostedByCont p {
+    width: 36vw;
+    font-size: 1.5em;
+  }
+  .properDescrip h1 {
+    font-size: 2em;
+  }
+  .properDescrip div {
+    font-size: 1.5em;
+  }
+  .showImagesBtn {
+    /* top: 88%; */
+    font-size: 1.4rem;
+    padding: 0;
+    font-family: system-ui;
+    height: 5vh;
+    bottom: 4rem;
+    width: 8vw;
+  }
+  .showMoreDesBtn {
+    font-size: 1.5rem;
+    width: 8vw;
+    height: 4vh;
+  }
+  .properDescripMod h1 {
+    font-size: 2em;
+  }
+  .modalDescpDiv {
+    font-size: 1.5em;
+  }
+  .amenDiv {
+    font-size: 1.4em;
+  }
+  .properAmenties {
+    width: 100%;
+    height: 62vh;
+    /* background-color: rgb(12, 219, 140); */
+    display: flex;
+    padding: 1em;
+    font-size: 1.1em;
+    align-items: center;
+  }
+  .commentSection textarea {
+    font-size: 1.5em;
+    font-family: system-ui;
+    color: #464646;
+  }
+  .submitCommentBtn {
+    width: 8vw;
+    height: 5vh;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .topSection {
+    width: 100%;
+    height: 92vh;
+  }
+  .properStats {
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 1.4em;
+    top: 30%;
+  }
+  .addToCartCont {
+    font-size: 1.1em;
+  }
+  .showImagesBtn {
+    /* top: 88%; */
+    font-size: 1.4rem;
+    padding: 0;
+    font-family: system-ui;
+    height: 5vh;
+    width: 10vw;
+    bottom: 4rem;
+  }
+  .statsCont {
+    min-width: 33%;
+  }
+  .titleContainer {
+    width: 100%;
+    height: 15vh;
+    padding: 0px 7px;
+  }
+  .titleContainer h1 {
+    font-size: 2em;
+    white-space: nowrap;
+    width: 99vh;
+    overflow: hidden;
+    padding: 0.2em 0em;
+    text-overflow: ellipsis;
+    color: #0162c8e3;
+    font-family: system-ui;
+    font-weight: bold;
+  }
+  .hostedByCont p {
+    width: 36vw;
+    font-size: 1.4em;
+  }
+  .showMoreDesBtn {
+    font-size: 1.5rem;
+    width: 10vw;
+    height: 5vh;
+  }
+  .properAmenties {
+    width: 100%;
+    height: 62vh;
+    display: flex;
+    padding: 1em;
+    font-size: 1.1em;
+    align-items: center;
+  }
+  .commentSection textarea {
+    font-size: 1.36em;
+  }
+  .submitCommentBtn {
+    width: 8vw;
+    height: 5vh;
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .titleContainer h1 {
+    font-size: 1.8em;
+    width: 99vh;
+  }
+  .properStats {
+    font-size: 0.9em;
+    top: 35%;
+  }
+  .properAmenties {
+    font-size: 0.9em;
+  }
+  .hostedByCont h1 {
+    font-size: 1.35em;
+  }
+  .hostedByCont p {
+    font-size: 1.2em;
+  }
+  .properDescrip h1 {
+    font-size: 1.5em;
+  }
+  .properDescrip div {
+    font-size: 1.2em;
+  }
+  .showMoreDesBtn {
+    font-size: 1.1rem;
+    width: 9vw;
+    height: 5vh;
+  }
+  .properDescripMod h1 {
+    font-size: 1.5em;
+  }
+  .modalDescpDiv {
+    font-size: 1.1em;
+  }
+  .statsCont {
+    min-width: 29%;
+  }
+  .showImagesBtn {
+    font-size: 1rem;
+    height: 5vh;
+    width: 9vw;
+    bottom: 4rem;
+  }
+  .amenDiv {
+    font-size: 1.2em;
+  }
+  .bottomSection h1 {
+    font-size: 1.5em;
+  }
+  .commentSection textarea {
+    font-size: 1.1em;
+  }
+  .submitCommentBtn {
+    width: 6vw;
+    height: 5vh;
+    font-size: 1.1em;
+  }
+  .addedComment {
+    width: 30vw;
+    height: 31vh;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .propertyDetail {
+    width: 213vw;
+    height: 426vh;
+  }
+  .titleContainer {
+    height: 15vh;
+  }
+  .titleContainer h1 {
+    font-size: 2em;
+  }
+  .properStats {
+    font-size: 1.7em;
+    top: 35%;
+  }
+  .showImagesModal {
+    width: 173.3vw;
+    height: 173.3vh;
+  }
+  .showImgsMdlSub {
+    width: 173vw;
+    height: 90vh;
+    top: 22%;
+  }
+  .showImagesCarousel {
+    width: 173vw;
+    height: 90vh;
+  }
+  .showImagesCarousel img {
+    width: 173vw;
+    height: 100vh;
+  }
+  .showImagesBtn {
+    /* top: 91%; */
+    font-size: 1.5rem;
+    height: 8vh;
+    width: 41vw;
+    bottom: 1rem;
+    /* right: -108%; */
+  }
+  .descriptionMod {
+    width: 183vw;
+    height: 104vh;
+    top: 43vh;
+  }
+  .descriptionModal {
+    width: 215vw;
+    height: 218vh;
+  }
+  .modalDescpDiv {
+    font-size: 1.4em;
+  }
+  .middleSection {
+    width: 100%;
+    height: 133vh;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+  }
+  .detailSection {
+    width: 100%;
+    height: 100%;
+  }
+  .hostedByCont h1 {
+    font-size: 1.8em;
+  }
+  .hostedByCont p {
+    width: 121vw;
+    font-size: 1.8em;
+  }
+  .bottomSection h1 {
+    font-size: 2em;
+  }
+  .hostedByCont img {
+    width: 26vw;
+    height: 17vh;
+    border-radius: 24%;
+    top: -88%;
+  }
+  .properDescrip div {
+    font-size: 1.8em;
+  }
+  .properDescrip h1 {
+    font-size: 1.8em;
+  }
+  .properDescripMod h1 {
+    font-size: 2em;
+  }
+  .modalDescpDiv {
+    font-size: 1.8em;
+    height: 75vh;
+  }
+  .showMoreDesBtn {
+    top: -17%;
+    font-size: 1.7rem;
+    width: 41vw;
+    height: 9vh;
+  }
+  .AmenitiesContainer {
+    width: 100%;
+    height: 59vh;
+  }
+  .amenDiv {
+    width: 65vw;
+    height: 19vh;
+    font-size: 2.2em;
+  }
+  .bookingSection {
+    width: 100%;
+    height: 100%;
+  }
+  .bookingModal {
+    width: 189vw;
+    height: 76vh;
+  }
+  .reviewsCont {
+    grid-template-columns: 100%;
+  }
+  .bottomSection {
+    width: 100%;
+    height: 199vh;
+  }
+  .addCommentSection {
+    width: 100%;
+    height: 109vh;
+    flex-direction: column-reverse;
+  }
+  .addCommentCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .addedComment {
+    width: 127vw;
+    height: 47vh;
+  }
+  .ratingSection {
+    width: 133vw;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+  }
+  .commentSection {
+    width: 133vw;
+    height: 23vh;
+  }
+  .commentSection textarea {
+    font-family: system-ui;
+    font-size: 1.8em;
+  }
+  .submitCommentBtn {
+    width: 31vw;
+    height: 10vh;
+    font-size: 1.8em;
+    padding: 0em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .propertyDetail {
+    width: 228vw;
+    height: 457vh;
+  }
+  .topSection {
+    width: 100%;
+    height: 85vh;
+  }
+  .bottomSection {
+    width: 100%;
+    height: 239vh;
+  }
+  .titleContainer {
+    width: 100%;
+    height: 17vh;
+    padding: 0px 7px;
+  }
+  .properStats {
+    font-size: 1.4em;
+    top: 35%;
+  }
+  .hostedByCont p {
+    width: 168vw;
+    font-size: 1.5em;
+  }
+  .hostedByCont img {
+    top: -94%;
+  }
+  .properDescrip div {
+    font-size: 1.7em;
+  }
+  .showMoreDesBtn {
+    top: -17%;
+    font-size: 1.5rem;
+  }
+  .properAmenties {
+    width: 100%;
+    height: 72vh;
+    font-size: 1.1em;
+  }
+  .AmenitiesContainer {
+    width: 100%;
+    height: 100%;
+  }
+  .amenDiv {
+    width: 68vw;
+    height: 19vh;
+    font-size: 1.8em;
+  }
+  .descriptionModal {
+    width: 228vw;
+    height: 228vh;
+  }
+  .descriptionMod {
+    width: 200vw;
+    height: 150vh;
+    top: 39vh;
+  }
+  .properDescripMod h1 {
+    padding: 0px 0px 15px 0px;
+    font-size: 2em;
+  }
+  .modalDescpDiv {
+    font-size: 1.7em;
+    height: 109vh;
+  }
+  .addCommentSection {
+    width: 100%;
+    height: 149vh;
+  }
+  .addCommentCont {
+    width: 170vw;
+    height: 66vh;
+  }
+  .ratingSection {
+    width: 100%;
+    height: 15vh;
+    border: 1px solid #29b8cd;
+    padding-left: 15px;
+  }
+  .commentSection {
+    width: 100%;
+    height: 36vh;
+  }
+  .submitCommentBtn {
+    width: 44vw;
+    height: 9vh;
+    font-size: 1.5em;
+  }
+  .addedComment {
+    width: 170vw;
+    height: 58vh;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .propertyDetail {
+    width: 223vw;
+    height: 457vh;
+  }
+  .titleContainer h1 {
+    font-size: 2.3em;
+  }
+  .properStats {
+    font-size: 1.4em;
+    top: 22%;
+  }
+  .showImagesBtn {
+    /* top: 91%; */
+    font-size: 1.5rem;
+    height: 8vh;
+    width: 43vw;
+    /* right: -117%; */
+    bottom: 1rem;
+  }
+  .showImagesModal {
+    width: 225vw;
+    height: 225vh;
+  }
+  .showImgsMdlSub {
+    width: 214vw;
+    height: 110vh;
+    top: 22%;
+  }
+  .showImagesCarousel {
+    width: 100%;
+    height: 100vh;
+  }
+  .showImagesCarousel img {
+    width: 100%;
+    height: 100vh;
+  }
+  .hostedByCont p {
+    width: 168vw;
+    font-size: 1.7em;
+  }
+  .properDescripMod {
+    width: 100%;
+    height: 111vh;
+    border-bottom: 1px solid #849095;
+    border-top: 1px solid #849095;
+  }
+  .modalDescpDiv {
+    font-size: 1.7em;
+    height: 97vh;
+  }
+}

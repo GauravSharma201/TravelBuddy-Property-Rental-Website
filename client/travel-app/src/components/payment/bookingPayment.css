@@ -1,0 +1,432 @@
+.bookingPaymentSec {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.bookingPaymentSubCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.confirmPayCont {
+  width: 31vw;
+  height: 47vh;
+  background-color: #edf1f3;
+  display: flex;
+  color: #282727;
+  flex-direction: column;
+  border: 7px solid #55e7fc;
+  box-shadow: 0.1em 0.1em 0.3em 0.1em #00000061;
+  border-radius: 9px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.confirmPayCont input {
+  border-radius: 9px;
+  height: 4vh;
+  border: 1px solid #bbbbc2;
+  padding: 0.9em;
+  color: #464646;
+}
+.propDetPricingCont {
+  width: 39vw;
+  height: 66vh;
+  background-color: white;
+  box-shadow: 0px 2px 6px 3px #00000036;
+  border-radius: 9px;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.propDetForBooking {
+  width: 100%;
+  height: 30vh;
+  /* background-color: lawngreen; */
+  padding-bottom: 1em;
+  color: #282727;
+  font-family: system-ui;
+  border-bottom: 1px solid #bbbbc2;
+  padding-left: 0.3em;
+  display: flex;
+}
+.propDetBookImgCont {
+  width: 16vw;
+  height: 100%;
+  /* background-color: yellow; */
+}
+.propDetBookDetCont {
+  width: 23vw;
+  height: 100%;
+  /* background-color: red; */
+  padding: 1em;
+}
+.propDetBookDetTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+}
+.propDetBookDetMidlle {
+  margin: 2% 0%;
+  width: 100%;
+  height: 42%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.propDetBookDetBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.propDetBookItemImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+}
+.bookingDetLink {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+.pricingDet {
+  width: 100%;
+  height: 29vh;
+  color: #464646;
+  font-family: system-ui;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 12px;
+}
+.pricingDetSub {
+  width: 100%;
+  height: 9vh;
+  /* background-color: rgb(238, 160, 15); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.middlePricingDetSub {
+  border-top: 1px solid #bbbbc2;
+  border-bottom: 1px solid #bbbbc2;
+}
+.rigthSpan {
+  float: right;
+}
+.paymentCardInput {
+  width: 18vw;
+  height: 4vh;
+  background-color: white;
+  border-radius: 9px;
+  border: 1px solid #cbd0d3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.paymentInput {
+  width: 14vw;
+  height: 3vh;
+  background-color: white;
+}
+.spanBoxBookPay {
+  width: 6vw;
+  height: 3.5vh;
+  display: none;
+  /* background-color: blueviolet; */
+  font-size: 0.85em;
+  border: 1px solid #282727;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+}
+.darkSpanBoxBookPay {
+  display: flex;
+}
+.payNowBtn {
+  cursor: pointer;
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+  color: rgb(237 241 243);
+  border-radius: 18px;
+  box-shadow: 2px 2px 6px 3px #00000021;
+  border: 2px solid rgb(255 193 7);
+  padding: 1em;
+  font-weight: bolder;
+  font-size: 0.8em;
+}
+.propDetBookDetTopSub h1 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 20vw;
+}
+.propDetBookDetTopSub h4 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 20vw;
+}
+.confirmPayCont label {
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 1920px) {
+  .confirmPayCont {
+    width: 40vw;
+    height: 61vh;
+    background-color: #edf1f3;
+    display: flex;
+    color: #282727;
+    flex-direction: column;
+    font-size: 1.2em;
+    border: 7px solid #55e7fc;
+    box-shadow: 0.1em 0.1em 0.3em 0.1em #00000061;
+    border-radius: 9px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .confirmPayCont label {
+    font-size: 1.4em;
+    font-family: system-ui;
+  }
+  .confirmPayCont input {
+    height: 4vh;
+    width: 19vw;
+    font-family: system-ui;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.3em;
+  }
+  .paymentCardInput {
+    width: 19vw;
+    height: 4vh;
+  }
+  .propDetPricingCont {
+    width: 39vw;
+    height: 60vh;
+    font-size: 1.1em;
+  }
+  .payNowBtn {
+    padding: 0;
+    height: 6vh;
+    width: 6vw;
+    font-weight: normal;
+    font-size: 1.1em;
+  }
+  .propDetBookDetTopSub h4 {
+    font-size: 1.4em;
+  }
+  .propDetBookDetTopSub h1 {
+    font-size: 1.8em;
+  }
+  .spanBoxBookPay {
+    width: 6vw;
+    height: 3.5vh;
+    font-size: 1.2em;
+  }
+  .propDetBookDetBottom {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .pricingDetSub {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .confirmPayCont label {
+    font-size: 1.3em;
+    font-family: system-ui;
+  }
+  .confirmPayCont input {
+    height: 5vh;
+    width: 20vw;
+    font-size: 1.1em;
+  }
+  .paymentCardInput {
+    width: 20vw;
+    height: 5vh;
+  }
+  .propDetBookDetTopSub h4 {
+    font-size: 1.2em;
+  }
+  .propDetBookDetTopSub h1 {
+    font-size: 1.7em;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .confirmPayCont {
+    width: 31vw;
+    height: 47vh;
+    font-size: 1em;
+  }
+  .propDetPricingCont {
+    width: 39vw;
+    height: 57vh;
+    font-size: 1em;
+  }
+  .propDetForBooking {
+    height: 30vh;
+  }
+  .pricingDet {
+    height: 23vh;
+  }
+  .propDetBookDetTopSub h4 {
+    font-size: 1em;
+  }
+  .propDetBookDetTopSub h1 {
+    font-size: 1.5em;
+  }
+  .spanBoxBookPay {
+    width: 6vw;
+    height: 3.5vh;
+    font-size: 1em;
+  }
+  .propDetBookDetBottom {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .pricingDetSub {
+    font-size: 1.1em;
+  }
+  .confirmPayCont label {
+    font-size: 1.1em;
+  }
+  .payNowBtn {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .bookingPaymentSec {
+    width: 213vw;
+    height: 213vh;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .bookingPaymentSubCont {
+    width: 100%;
+    height: 87vh;
+  }
+  .confirmPayCont {
+    width: 172vw;
+    height: 76vh;
+    font-size: 1.8em;
+  }
+  .confirmPayCont input {
+    font-size: 1em;
+    height: 6vh;
+    width: 107vw;
+  }
+  .paymentCardInput {
+    width: 108vw;
+    height: 7vh;
+  }
+  .paymentInput {
+    width: 69vw;
+    height: 3vh;
+  }
+  .propDetPricingCont {
+    width: 177vw;
+    height: 83vh;
+    font-size: 1.3em;
+  }
+  .propDetForBooking {
+    width: 100%;
+    height: 52vh;
+  }
+  .propDetBookImgCont {
+    width: 69vw;
+  }
+  .propDetBookDetCont {
+    width: 106vw;
+  }
+  .propDetBookDetTopSub h4 {
+    width: 63vw;
+    font-size: 1.5em;
+  }
+  .propDetBookDetTopSub h1 {
+    font-size: 1.7em;
+    width: 63vw;
+  }
+  .spanBoxBookPay {
+    width: 27vw;
+    height: 3.5vh;
+    font-size: 1.5em;
+  }
+  .propDetBookDetBottom {
+    font-size: 1.5em;
+  }
+  .pricingDetSub {
+    font-size: 1.5em;
+  }
+  .payNowBtn {
+    font-size: 1em;
+    padding: 0;
+    height: 6vh;
+    width: 47vw;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .paymentCardInput {
+    width: 108vw;
+    height: 8vh;
+  }
+  .pricingDetSub {
+    font-size: 1.4em;
+  }
+  .paymentInput {
+    width: 77vw;
+    height: 3vh;
+  }
+  .pricingDet {
+    height: 27vh;
+  }
+  .propDetBookDetTopSub h4 {
+    width: 84vw;
+    font-size: 1.3em;
+  }
+  .propDetBookDetTopSub h1 {
+    font-size: 1.7em;
+    width: 82vw;
+  }
+  .propDetBookDetBottom {
+    font-size: 1.3em;
+  }
+  .spanBoxBookPay {
+    width: 27vw;
+    height: 5.5vh;
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .bookingPaymentSec {
+    width: 225vw;
+    height: 214vh;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .confirmPayCont input {
+    height: 8vh;
+  }
+  .payNowBtn {
+    font-size: 1em;
+    padding: 0;
+    height: 10vh;
+    width: 47vw;
+    font-weight: normal;
+  }
+}

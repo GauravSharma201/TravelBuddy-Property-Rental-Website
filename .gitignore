@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/server/node_modules
+/client/travel-app/node_modules
+/client/travel-app/.pnp
+/client/travel-app/.pnp.js
+
+# testing
+/client/travel-app/coverage
+
+# production
+/client/travel-app/build
+
+# misc
+/server/config/config.env
+/client/travel-app/.DS_Store
+/client/travel-app/.env.local
+/client/travel-app/.env.development.local
+/client/travel-app/.env.test.local
+/client/travel-app/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

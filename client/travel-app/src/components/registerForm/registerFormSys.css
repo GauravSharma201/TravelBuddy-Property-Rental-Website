@@ -1,0 +1,68 @@
+.regForm {
+  width: 29vw;
+  height: 61vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: #464646;
+  font-family: system-ui;
+  top: 7%;
+  left: 9%;
+}
+.regForm input {
+  border: 1px solid #bbbbc2;
+  background-color: white;
+  height: 4vh;
+  padding: 1em;
+  font-family: system-ui;
+  border-radius: 9px;
+  color: #464646;
+}
+.regForm div {
+  margin: 9px 0px;
+  width: 22vw;
+  height: 7vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.regImgPreview {
+  width: 6vw;
+  height: 11vh;
+  border-radius: 100%;
+}
+.regForm button {
+  border: 1px solid #bbbbc2;
+  background-color: #055ab3;
+  padding: 0.5em;
+  width: 5vw;
+  font-family: system-ui;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-top: 1em;
+  font-weight: bold;
+  border-radius: 9px;
+  color: white;
+}
+.regFormImgUpld label {
+  background-color: #357cc7;
+  border-radius: 9px;
+  width: 10vw;
+  cursor: pointer;
+  color: white;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.regFormImgUpld input {
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+.registerFormLabel {
+  font-size: 1em;
+}

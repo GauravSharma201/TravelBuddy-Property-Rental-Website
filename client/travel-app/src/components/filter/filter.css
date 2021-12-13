@@ -1,0 +1,286 @@
+.priceFiltModal {
+  width: 21vw;
+  height: 17vh;
+  background-color: #edf1f3;
+  display: none;
+  position: absolute;
+  box-shadow: rgb(0 0 0 / 47%) 0px 4px 6px -2px;
+  /* top: 41%; */
+  border-radius: 20px;
+  z-index: 6;
+  padding: 1em;
+}
+.ratingsFiltModal {
+  width: 5vw;
+  height: 30vh;
+  background-color: #edf1f3;
+  box-shadow: rgb(0 0 0 / 47%) 0px 4px 6px -2px;
+  display: none;
+  position: absolute;
+  z-index: 6;
+  /* top: 39%; */
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.amenitiesFiltModal {
+  width: 30vw;
+  height: 30vh;
+  background-color: #edf1f3;
+  display: none;
+  position: absolute;
+  z-index: 6;
+  /* top: 39%; */
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 15px;
+}
+.activeFiltModal {
+  display: block;
+}
+.activeRatingsFiltModal {
+  display: flex;
+}
+.activeAmenitiesFiltModal {
+  display: grid;
+}
+.filterList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.filterList li {
+  cursor: pointer;
+}
+.filterList li:hover > span {
+  transform: scale(1.1);
+  border: 2px solid #000000a8;
+  color: black;
+}
+.filterTitle {
+  margin: 0px 3px;
+  width: 6vw;
+  height: 5vh;
+  padding: 3px;
+  border-radius: 13px;
+  border: 2px solid #000000a8;
+  color: #000000bf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.priceSlidValCont {
+  width: 100%;
+  height: 51%;
+  background-color: white;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* top: 13px; */
+}
+.priceSlidValCont input {
+  width: 5vw;
+  height: 5vh;
+  margin: 0px 13px;
+  border-radius: 13px;
+  border: 2px solid grey;
+  padding: 14px;
+}
+.ratingsList {
+  list-style: none;
+}
+.ratingsList li {
+  margin: 8px 0px;
+  padding: 1px;
+  width: 2.5vw;
+  height: 5.5vh;
+  border: 2px solid grey;
+  background-color: rgb(255 255 255 / 43%);
+  border-radius: 100%;
+  color: #000000bf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.ratingsList li:hover {
+  color: black;
+  transform: scale(1.05);
+}
+.amenitiesFiltModal div {
+  display: flex;
+  align-items: center;
+  padding: 0px 19px;
+}
+.amenitiesFiltModal label {
+  margin: 0px 6px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .filterTitle {
+    font-size: 1.6em;
+  }
+  .ratingsFiltModal {
+    width: 7vw;
+    height: 30vh;
+    /* top: 35%; */
+  }
+  .ratingsList li {
+    width: 3.5vw;
+    height: 6.5vh;
+    font-size: 1.5em;
+    font-family: system-ui;
+  }
+  /* .priceFiltModal {
+    top: 36%;
+  } */
+  .priceSlidValCont input {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .filterTitle {
+    font-size: 1.3em;
+  }
+  .ratingsFiltModal {
+    width: 7vw;
+    height: 30vh;
+    /* top: 40%; */
+  }
+  .ratingsList li {
+    width: 3.5vw;
+    height: 6.5vh;
+    font-size: 1.4em;
+    font-family: system-ui;
+  }
+  /* .priceFiltModal {
+    top: 41%;
+  } */
+  .priceSlidValCont input {
+    font-size: 1.4em;
+    width: 6.5vw;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .filterList li {
+    cursor: pointer;
+    width: 7vw;
+  }
+  .filterTitle {
+    font-size: 1.2em;
+  }
+  .ratingsFiltModal {
+    width: 5vw;
+    height: 30vh;
+    /* top: 35%; */
+  }
+  .ratingsList li {
+    width: 3vw;
+    height: 5.5vh;
+    font-size: 1.2em;
+    font-family: system-ui;
+  }
+  .priceSlidValCont input {
+    font-size: 1.1em;
+    width: 6.5vw;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .filterList li {
+    width: 31vw;
+  }
+  .filterTitle {
+    margin: 0px 3px;
+    width: 27vw;
+    height: 5vh;
+    font-size: 2em;
+  }
+  .priceFiltModal {
+    width: 75vw;
+    height: 27vh;
+    /* top: 45%; */
+  }
+  .priceSlidValCont {
+    width: 100%;
+    height: 51%;
+    /* top: 13px; */
+  }
+  .priceSlidValCont input {
+    width: 24vw;
+    height: 5vh;
+    font-size: 1.8em;
+  }
+  .ratingsFiltModal {
+    width: 27vw;
+    height: 43vh;
+    /* top: 44%; */
+  }
+  .ratingsList li {
+    width: 18.5vw;
+    height: 8.5vh;
+    font-family: system-ui;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* .ratingsFiltModal {
+    top: 53%;
+  } */
+  .filterTitle {
+    margin: 0px 3px;
+    width: 27vw;
+    height: 7vh;
+    font-size: 1.5em;
+  }
+  .priceFiltModal {
+    width: 99vw;
+    height: 32vh;
+    /* top: 55%; */
+  }
+  .priceSlidValCont input {
+    width: 32vw;
+    height: 9vh;
+    color: #464646;
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .filterList li {
+    width: 32vw;
+  }
+  .priceFiltModal {
+    width: 84vw;
+    height: 30vh;
+    /* top: 50%; */
+  }
+  .priceSlidValCont {
+    width: 100%;
+    height: 51%;
+    /* top: 13px; */
+  }
+  .priceSlidValCont input {
+    width: 27vw;
+    height: 8vh;
+    font-size: 1.5em;
+  }
+  .ratingsFiltModal {
+    width: 27vw;
+    height: 43vh;
+    /* top: 50%; */
+  }
+  .ratingsList li {
+    width: 18.5vw;
+    height: 8.5vh;
+    font-family: system-ui;
+    font-size: 1.7em;
+  }
+}
