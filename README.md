@@ -4,11 +4,19 @@ Hi! I'm **Gaurav Sharma**. I have build this CRUD application as a final project
 
 # Frameworks :
 
-frameworks used in **Travel-buddy** : 1.**MongoDB** 2.**React.js** 3.**Node.js** 4.**Redux** (an application data-flow architecture) 5.**Express.js** 6.**Mongoose**
+frameworks used in **Travel-buddy** : 
+1.**MongoDB** 
+2.**React.js** 
+3.**Node.js** 
+4.**Redux** (an application data-flow architecture) 
+5.**Express.js** 
+6.**Mongoose**
 
 ## Languages used
 
-1.**JavaScript** 2.**HTML** 3.**CSS**
+1.**JavaScript** 
+2.**HTML** 
+3.**CSS**
 
 ## RESPONSIVENESS
 
