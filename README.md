@@ -35,6 +35,9 @@ This application is also responsive across various standard screen sizes:
 
 **For Frontend** - `cd client/travel-app` ` npm install`
 
+## Proxy
+In client/travel-app/package.json set **proxy** value : `http://<your i.p address>:5000`
+
 ## Env Variables
 
 Make Sure to Create a config.env file in server/config directory and add appropriate variables in order to use the app.
